@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nama": "Action"
+  },
+  {
+    "id": 2,
+    "nama": "Adventure"
+  },
+  {
+    "id": 4,
+    "nama": "Drama"
+  },
+  {
+    "id": 5,
+    "nama": "Fantasy"
+  },
+  {
+    "id": 6,
+    "nama": "Horror"
+  },
+  {
+    "id": 7,
+    "nama": "Supernatural"
+  },
+  {
+    "id": 8,
+    "nama": "Mystery"
+  },
+  {
+    "id": 10,
+    "nama": "Psychological"
+  },
+  {
+    "id": 11,
+    "nama": "Comedy"
+  },
+  {
+    "id": 12,
+    "nama": "Suspense"
+  },
+  {
+    "id": 13,
+    "nama": "Sports"
+  },
+  {
+    "id": 14,
+    "nama": "Sci-Fi"
+  },
+  {
+    "id": 15,
+    "nama": "Ecchi"
+  },
+  {
+    "id": 16,
+    "nama": "Romance"
+  },
+  {
+    "id": 3,
+    "nama": "Award Winning"
+  },
+  {
+    "id": 17,
+    "nama": "Girls Love"
+  },
+  {
+    "id": 9,
+    "nama": "Slice of Life"
+  },
+  {
+    "id": 18,
+    "nama": "Boys Love"
+  },
+  {
+    "id": 19,
+    "nama": "Erotica"
+  },
+  {
+    "id": 20,
+    "nama": "Hentai"
+  },
+  {
+    "id": 21,
+    "nama": "Gourmet"
+  }
+]

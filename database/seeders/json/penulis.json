@@ -1,0 +1,5318 @@
+[
+  {
+    "id": 47727,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Studio Gaga"
+  },
+  {
+    "id": 3,
+    "nama_depan": "Kentarou",
+    "peran": "Story & Art",
+    "nama_belakang": "Miura"
+  },
+  {
+    "id": 16,
+    "nama_depan": "Eiichiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Oda"
+  },
+  {
+    "id": 9,
+    "nama_depan": "Hiromu",
+    "peran": "Story & Art",
+    "nama_belakang": "Arakawa"
+  },
+  {
+    "id": 754,
+    "nama_depan": "Hirohiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Araki"
+  },
+  {
+    "id": 971,
+    "nama_depan": "Inio",
+    "peran": "Story & Art",
+    "nama_belakang": "Asano"
+  },
+  {
+    "id": 3895,
+    "nama_depan": "Eiji",
+    "peran": "Story",
+    "nama_belakang": "Yoshikawa"
+  },
+  {
+    "id": 46,
+    "nama_depan": "Takehiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 169,
+    "nama_depan": "Makoto",
+    "peran": "Story & Art",
+    "nama_belakang": "Yukimura"
+  },
+  {
+    "id": 9086,
+    "nama_depan": "Yoshitoki",
+    "peran": "Story & Art",
+    "nama_belakang": "Ooima"
+  },
+  {
+    "id": 274,
+    "nama_depan": "Aka",
+    "peran": "Story & Art",
+    "nama_belakang": "Akasaka"
+  },
+  {
+    "id": 39293,
+    "nama_depan": "Tatsuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujimoto"
+  },
+  {
+    "id": 2,
+    "nama_depan": "Naoki",
+    "peran": "Story & Art",
+    "nama_belakang": "Urasawa"
+  },
+  {
+    "id": 15128,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "ONE"
+  },
+  {
+    "id": 38,
+    "nama_depan": "Yusuke",
+    "peran": "Art",
+    "nama_belakang": "Murata"
+  },
+  {
+    "id": 47803,
+    "nama_depan": "Sung-rak",
+    "peran": "Art",
+    "nama_belakang": "Jang"
+  },
+  {
+    "id": 47802,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Chugong"
+  },
+  {
+    "id": 246,
+    "nama_depan": "Tsugumi",
+    "peran": "Story",
+    "nama_belakang": "Ohba"
+  },
+  {
+    "id": 23,
+    "nama_depan": "Takeshi",
+    "peran": "Art",
+    "nama_belakang": "Obata"
+  },
+  {
+    "id": 6395,
+    "nama_depan": "Haruichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Furudate"
+  },
+  {
+    "id": 28,
+    "nama_depan": "Yoshihiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Togashi"
+  },
+  {
+    "id": 14576,
+    "nama_depan": "Kimitake",
+    "peran": "Art",
+    "nama_belakang": "Yoshioka"
+  },
+  {
+    "id": 5243,
+    "nama_depan": "Kenji",
+    "peran": "Story",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 39992,
+    "nama_depan": "Sugaru",
+    "peran": "Story",
+    "nama_belakang": "Miaki"
+  },
+  {
+    "id": 15194,
+    "nama_depan": "Shouichi",
+    "peran": "Art",
+    "nama_belakang": "Taguchi"
+  },
+  {
+    "id": 1678,
+    "nama_depan": "Tatsuya",
+    "peran": "Story & Art",
+    "nama_belakang": "Endou"
+  },
+  {
+    "id": 9840,
+    "nama_depan": "Hajime",
+    "peran": "Story & Art",
+    "nama_belakang": "Isayama"
+  },
+  {
+    "id": 453,
+    "nama_depan": "Tooru",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujisawa"
+  },
+  {
+    "id": 12850,
+    "nama_depan": "Yasuhisa",
+    "peran": "Story & Art",
+    "nama_belakang": "Hara"
+  },
+  {
+    "id": 32046,
+    "nama_depan": "Sou",
+    "peran": "Story & Art",
+    "nama_belakang": "Yayoi"
+  },
+  {
+    "id": 74,
+    "nama_depan": "Kiyohiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Azuma"
+  },
+  {
+    "id": 46059,
+    "nama_depan": "Gege",
+    "peran": "Story & Art",
+    "nama_belakang": "Akutami"
+  },
+  {
+    "id": 13888,
+    "nama_depan": "Sui",
+    "peran": "Story & Art",
+    "nama_belakang": "Ishida"
+  },
+  {
+    "id": 561,
+    "nama_depan": "Mizuho",
+    "peran": "Story & Art",
+    "nama_belakang": "Kusanagi"
+  },
+  {
+    "id": 36805,
+    "nama_depan": "Akihito",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsukushi"
+  },
+  {
+    "id": 1618,
+    "nama_depan": "Jun",
+    "peran": "Story & Art",
+    "nama_belakang": "Mochizuki"
+  },
+  {
+    "id": 1159,
+    "nama_depan": "Q",
+    "peran": "Story & Art",
+    "nama_belakang": "Hayashida"
+  },
+  {
+    "id": 8,
+    "nama_depan": "Natsuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Takaya"
+  },
+  {
+    "id": 14838,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "HERO"
+  },
+  {
+    "id": 10467,
+    "nama_depan": "Daisuke",
+    "peran": "Art",
+    "nama_belakang": "Hagiwara"
+  },
+  {
+    "id": 45519,
+    "nama_depan": "Young-chan",
+    "peran": "Art",
+    "nama_belakang": "Hwang"
+  },
+  {
+    "id": 45518,
+    "nama_depan": "Carnby",
+    "peran": "Story",
+    "nama_belakang": "Kim"
+  },
+  {
+    "id": 29,
+    "nama_depan": "Ai",
+    "peran": "Story & Art",
+    "nama_belakang": "Yazawa"
+  },
+  {
+    "id": 1002,
+    "nama_depan": "Sumomo",
+    "peran": "Art",
+    "nama_belakang": "Yumeka"
+  },
+  {
+    "id": 7,
+    "nama_depan": "Katsuhiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Otomo"
+  },
+  {
+    "id": 35885,
+    "nama_depan": "Nio",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakatani"
+  },
+  {
+    "id": 25,
+    "nama_depan": "Nobuhiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Watsuki"
+  },
+  {
+    "id": 14650,
+    "nama_depan": "Haruko",
+    "peran": "Story & Art",
+    "nama_belakang": "Ichikawa"
+  },
+  {
+    "id": 30,
+    "nama_depan": "Bisco",
+    "peran": "Story & Art",
+    "nama_belakang": "Hatori"
+  },
+  {
+    "id": 39,
+    "nama_depan": "Hideaki",
+    "peran": "Story & Art",
+    "nama_belakang": "Sorachi"
+  },
+  {
+    "id": 1293,
+    "nama_depan": "Yoshiyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Sadamoto"
+  },
+  {
+    "id": 671,
+    "nama_depan": "Yoshiki",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakamura"
+  },
+  {
+    "id": 48069,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "SIU"
+  },
+  {
+    "id": 4338,
+    "nama_depan": "Tamiki",
+    "peran": "Story & Art",
+    "nama_belakang": "Wakaki"
+  },
+  {
+    "id": 9479,
+    "nama_depan": "Geuk-jin",
+    "peran": "Story",
+    "nama_belakang": "Jeon"
+  },
+  {
+    "id": 97,
+    "nama_depan": "Jin-Hwan",
+    "peran": "Art",
+    "nama_belakang": "Park"
+  },
+  {
+    "id": 73,
+    "nama_depan": "Osamu",
+    "peran": "Story",
+    "nama_belakang": "Tezuka"
+  },
+  {
+    "id": 11,
+    "nama_depan": "George",
+    "peran": "Story & Art",
+    "nama_belakang": "Morikawa"
+  },
+  {
+    "id": 3989,
+    "nama_depan": "Katsura",
+    "peran": "Story",
+    "nama_belakang": "Ise"
+  },
+  {
+    "id": 2041,
+    "nama_depan": "Takuma",
+    "peran": "Art",
+    "nama_belakang": "Yokota"
+  },
+  {
+    "id": 36,
+    "nama_depan": "Akira",
+    "peran": "Story & Art",
+    "nama_belakang": "Toriyama"
+  },
+  {
+    "id": 1903,
+    "nama_depan": "Yana",
+    "peran": "Story & Art",
+    "nama_belakang": "Toboso"
+  },
+  {
+    "id": 1581,
+    "nama_depan": "Hiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujiwara"
+  },
+  {
+    "id": 38298,
+    "nama_depan": "Tsubasa",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamaguchi"
+  },
+  {
+    "id": 28812,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Sirotaka"
+  },
+  {
+    "id": 28810,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Rifujin na Magonote"
+  },
+  {
+    "id": 19206,
+    "nama_depan": "Iro",
+    "peran": "Story & Art",
+    "nama_belakang": "Aida"
+  },
+  {
+    "id": 10916,
+    "nama_depan": "Naoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Arakawa"
+  },
+  {
+    "id": 16350,
+    "nama_depan": "Shougo",
+    "peran": "Story",
+    "nama_belakang": "Kinugasa"
+  },
+  {
+    "id": 10141,
+    "nama_depan": "Shunsaku",
+    "peran": "Art",
+    "nama_belakang": "Tomose"
+  },
+  {
+    "id": 4779,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Adachitoka"
+  },
+  {
+    "id": 49297,
+    "nama_depan": "Ji-Hoon",
+    "peran": "Story & Art",
+    "nama_belakang": "Jeong"
+  },
+  {
+    "id": 111,
+    "nama_depan": "Harold",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakuishi"
+  },
+  {
+    "id": 1830,
+    "nama_depan": "Julietta",
+    "peran": "Story & Art",
+    "nama_belakang": "Suzuki"
+  },
+  {
+    "id": 8598,
+    "nama_depan": "Ken",
+    "peran": "Story & Art",
+    "nama_belakang": "Wakui"
+  },
+  {
+    "id": 35430,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Fuse"
+  },
+  {
+    "id": 16316,
+    "nama_depan": "Taiki",
+    "peran": "Art",
+    "nama_belakang": "Kawakami"
+  },
+  {
+    "id": 37,
+    "nama_depan": "Riichiro",
+    "peran": "Story",
+    "nama_belakang": "Inagaki"
+  },
+  {
+    "id": 5108,
+    "nama_depan": "Ichigo",
+    "peran": "Story & Art",
+    "nama_belakang": "Takano"
+  },
+  {
+    "id": 512,
+    "nama_depan": "Hitoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Iwaaki"
+  },
+  {
+    "id": 38533,
+    "nama_depan": "Koyoharu",
+    "peran": "Story & Art",
+    "nama_belakang": "Gotouge"
+  },
+  {
+    "id": 21686,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Tetsuo"
+  },
+  {
+    "id": 21684,
+    "nama_depan": "Eiji",
+    "peran": "Story",
+    "nama_belakang": "Mikage"
+  },
+  {
+    "id": 11308,
+    "nama_depan": "Mengo",
+    "peran": "Art",
+    "nama_belakang": "Yokoyari"
+  },
+  {
+    "id": 7021,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsukumizu"
+  },
+  {
+    "id": 31968,
+    "nama_depan": "Yuusuke",
+    "peran": "Art",
+    "nama_belakang": "Nomura"
+  },
+  {
+    "id": 17184,
+    "nama_depan": "Muneyuki",
+    "peran": "Story",
+    "nama_belakang": "Kaneshiro"
+  },
+  {
+    "id": 652,
+    "nama_depan": "Norihiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Yagi"
+  },
+  {
+    "id": 497,
+    "nama_depan": "Kei",
+    "peran": "Story & Art",
+    "nama_belakang": "Sanbe"
+  },
+  {
+    "id": 3350,
+    "nama_depan": "Shinichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakamoto"
+  },
+  {
+    "id": 17979,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Ponkan⑧"
+  },
+  {
+    "id": 16332,
+    "nama_depan": "Wataru",
+    "peran": "Story",
+    "nama_belakang": "Watari"
+  },
+  {
+    "id": 4883,
+    "nama_depan": "Kouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Mori"
+  },
+  {
+    "id": 32850,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "so-bin"
+  },
+  {
+    "id": 22356,
+    "nama_depan": "Kugane",
+    "peran": "Story",
+    "nama_belakang": "Maruyama"
+  },
+  {
+    "id": 30786,
+    "nama_depan": "Shinichirou",
+    "peran": "Art",
+    "nama_belakang": "Ootsuka"
+  },
+  {
+    "id": 30784,
+    "nama_depan": "Tappei",
+    "peran": "Story",
+    "nama_belakang": "Nagatsuki"
+  },
+  {
+    "id": 36038,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujita"
+  },
+  {
+    "id": 529,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Urushibara"
+  },
+  {
+    "id": 1026,
+    "nama_depan": "Chika",
+    "peran": "Story & Art",
+    "nama_belakang": "Umino"
+  },
+  {
+    "id": 1353,
+    "nama_depan": "Kyousuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Motomi"
+  },
+  {
+    "id": 27,
+    "nama_depan": "Katsura",
+    "peran": "Story & Art",
+    "nama_belakang": "Hoshino"
+  },
+  {
+    "id": 1287,
+    "nama_depan": "Yuusei",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsui"
+  },
+  {
+    "id": 32506,
+    "nama_depan": "Satoru",
+    "peran": "Story & Art",
+    "nama_belakang": "Noda"
+  },
+  {
+    "id": 838,
+    "nama_depan": "Shinobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Ohtaka"
+  },
+  {
+    "id": 20050,
+    "nama_depan": "Natsuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kizu"
+  },
+  {
+    "id": 10221,
+    "nama_depan": "Ranmaru",
+    "peran": "Art",
+    "nama_belakang": "Kotone"
+  },
+  {
+    "id": 1,
+    "nama_depan": "Makoto",
+    "peran": "Story",
+    "nama_belakang": "Shinkai"
+  },
+  {
+    "id": 12,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "CLAMP"
+  },
+  {
+    "id": 4,
+    "nama_depan": "Hitoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Ashinano"
+  },
+  {
+    "id": 22516,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Harukawa35"
+  },
+  {
+    "id": 22514,
+    "nama_depan": "Kafka",
+    "peran": "Story",
+    "nama_belakang": "Asagiri"
+  },
+  {
+    "id": 886,
+    "nama_depan": "Hideo",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamamoto"
+  },
+  {
+    "id": 386,
+    "nama_depan": "Kouta",
+    "peran": "Story & Art",
+    "nama_belakang": "Hirano"
+  },
+  {
+    "id": 737,
+    "nama_depan": "Yukito",
+    "peran": "Story & Art",
+    "nama_belakang": "Kishiro"
+  },
+  {
+    "id": 37416,
+    "nama_depan": "Tomohito",
+    "peran": "Story & Art",
+    "nama_belakang": "Oda"
+  },
+  {
+    "id": 5,
+    "nama_depan": "Hayao",
+    "peran": "Story & Art",
+    "nama_belakang": "Miyazaki"
+  },
+  {
+    "id": 1759,
+    "nama_depan": "Izumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsubaki"
+  },
+  {
+    "id": 6729,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "VOFAN"
+  },
+  {
+    "id": 3389,
+    "nama_depan": "ISIN",
+    "peran": "Story",
+    "nama_belakang": "NISIO"
+  },
+  {
+    "id": 41399,
+    "nama_depan": "Paru",
+    "peran": "Story & Art",
+    "nama_belakang": "Itagaki"
+  },
+  {
+    "id": 5591,
+    "nama_depan": "Juu",
+    "peran": "Art",
+    "nama_belakang": "Ayakura"
+  },
+  {
+    "id": 1730,
+    "nama_depan": "Isuna",
+    "peran": "Story",
+    "nama_belakang": "Hasekura"
+  },
+  {
+    "id": 51345,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Sleepy-C"
+  },
+  {
+    "id": 51344,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "sing N song"
+  },
+  {
+    "id": 4352,
+    "nama_depan": "Tetsuya",
+    "peran": "Art",
+    "nama_belakang": "Chiba"
+  },
+  {
+    "id": 2152,
+    "nama_depan": "Ikki",
+    "peran": "Story",
+    "nama_belakang": "Kajiwara"
+  },
+  {
+    "id": 1289,
+    "nama_depan": "Yuhki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kamatani"
+  },
+  {
+    "id": 49351,
+    "nama_depan": "Tsukasa",
+    "peran": "Art",
+    "nama_belakang": "Abe"
+  },
+  {
+    "id": 21964,
+    "nama_depan": "Kanehito",
+    "peran": "Story",
+    "nama_belakang": "Yamada"
+  },
+  {
+    "id": 135,
+    "nama_depan": "Tsutomu",
+    "peran": "Story & Art",
+    "nama_belakang": "Nihei"
+  },
+  {
+    "id": 1402,
+    "nama_depan": "Karuho",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiina"
+  },
+  {
+    "id": 4714,
+    "nama_depan": "Shuuzou",
+    "peran": "Story & Art",
+    "nama_belakang": "Oshimi"
+  },
+  {
+    "id": 791,
+    "nama_depan": "Shinobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Kaitani"
+  },
+  {
+    "id": 42416,
+    "nama_depan": "Yoru",
+    "peran": "Story",
+    "nama_belakang": "Sumino"
+  },
+  {
+    "id": 1033,
+    "nama_depan": "Idumi",
+    "peran": "Art",
+    "nama_belakang": "Kirihara"
+  },
+  {
+    "id": 39873,
+    "nama_depan": "Kaiu",
+    "peran": "Story",
+    "nama_belakang": "Shirai"
+  },
+  {
+    "id": 28912,
+    "nama_depan": "Posuka",
+    "peran": "Art",
+    "nama_belakang": "Demizu"
+  },
+  {
+    "id": 1672,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Boichi"
+  },
+  {
+    "id": 31,
+    "nama_depan": "Aya",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakahara"
+  },
+  {
+    "id": 7969,
+    "nama_depan": "Kouhei",
+    "peran": "Story & Art",
+    "nama_belakang": "Horikoshi"
+  },
+  {
+    "id": 24438,
+    "nama_depan": "Natsume",
+    "peran": "Story",
+    "nama_belakang": "Akatsuki"
+  },
+  {
+    "id": 17332,
+    "nama_depan": "Kurone",
+    "peran": "Art",
+    "nama_belakang": "Mishima"
+  },
+  {
+    "id": 3741,
+    "nama_depan": "Haro",
+    "peran": "Story & Art",
+    "nama_belakang": "Aso"
+  },
+  {
+    "id": 4521,
+    "nama_depan": "Satoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Mizukami"
+  },
+  {
+    "id": 12154,
+    "nama_depan": "Il-Kwon",
+    "peran": "Story & Art",
+    "nama_belakang": "Ha"
+  },
+  {
+    "id": 710,
+    "nama_depan": "Kaoru",
+    "peran": "Story & Art",
+    "nama_belakang": "Mori"
+  },
+  {
+    "id": 14612,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanjiu"
+  },
+  {
+    "id": 23180,
+    "nama_depan": "Kore",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamazaki"
+  },
+  {
+    "id": 545,
+    "nama_depan": "Junji",
+    "peran": "Story & Art",
+    "nama_belakang": "Itou"
+  },
+  {
+    "id": 7768,
+    "nama_depan": "Kaede",
+    "peran": "Story & Art",
+    "nama_belakang": "Kouchi"
+  },
+  {
+    "id": 3767,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Taamo"
+  },
+  {
+    "id": 21906,
+    "nama_depan": "Yuuji",
+    "peran": "Story & Art",
+    "nama_belakang": "Kaku"
+  },
+  {
+    "id": 10389,
+    "nama_depan": "Mika",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamamori"
+  },
+  {
+    "id": 978,
+    "nama_depan": "Hiroaki",
+    "peran": "Story & Art",
+    "nama_belakang": "Samura"
+  },
+  {
+    "id": 47850,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Spoon"
+  },
+  {
+    "id": 47849,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Plutus"
+  },
+  {
+    "id": 939,
+    "nama_depan": "Gosho",
+    "peran": "Story & Art",
+    "nama_belakang": "Aoyama"
+  },
+  {
+    "id": 14742,
+    "nama_depan": "Masao",
+    "peran": "Story & Art",
+    "nama_belakang": "Ohtake"
+  },
+  {
+    "id": 2277,
+    "nama_depan": "Io",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakisaka"
+  },
+  {
+    "id": 10940,
+    "nama_depan": "Shinobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Amano"
+  },
+  {
+    "id": 2347,
+    "nama_depan": "Yuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Kamiya"
+  },
+  {
+    "id": 441,
+    "nama_depan": "Tachibana",
+    "peran": "Story & Art",
+    "nama_belakang": "Higuchi"
+  },
+  {
+    "id": 217,
+    "nama_depan": "Akimi",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshida"
+  },
+  {
+    "id": 41247,
+    "nama_depan": "Yongseok",
+    "peran": "Story & Art",
+    "nama_belakang": "Jo"
+  },
+  {
+    "id": 5510,
+    "nama_depan": "Ryuuhei",
+    "peran": "Story & Art",
+    "nama_belakang": "Tamura"
+  },
+  {
+    "id": 30040,
+    "nama_depan": "Yabako",
+    "peran": "Story",
+    "nama_belakang": "Sandrovich"
+  },
+  {
+    "id": 23168,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Daromeon"
+  },
+  {
+    "id": 2760,
+    "nama_depan": "Hisamu",
+    "peran": "Story & Art",
+    "nama_belakang": "Oto"
+  },
+  {
+    "id": 853,
+    "nama_depan": "Hiroya",
+    "peran": "Story & Art",
+    "nama_belakang": "Oku"
+  },
+  {
+    "id": 46044,
+    "nama_depan": "Kousuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Oono"
+  },
+  {
+    "id": 3209,
+    "nama_depan": "Kenjirou",
+    "peran": "Story & Art",
+    "nama_belakang": "Hata"
+  },
+  {
+    "id": 31512,
+    "nama_depan": "Kamome",
+    "peran": "Story & Art",
+    "nama_belakang": "Shirahama"
+  },
+  {
+    "id": 15992,
+    "nama_depan": "Yuuki",
+    "peran": "Art",
+    "nama_belakang": "Satou"
+  },
+  {
+    "id": 10340,
+    "nama_depan": "Mikoto",
+    "peran": "Story",
+    "nama_belakang": "Yamaguchi"
+  },
+  {
+    "id": 42,
+    "nama_depan": "Akira",
+    "peran": "Story & Art",
+    "nama_belakang": "Amano"
+  },
+  {
+    "id": 35429,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Mitz Vah"
+  },
+  {
+    "id": 1341,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Midorikawa"
+  },
+  {
+    "id": 33484,
+    "nama_depan": "Osamu",
+    "peran": "Story & Art",
+    "nama_belakang": "Nishi"
+  },
+  {
+    "id": 6647,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Robico"
+  },
+  {
+    "id": 800,
+    "nama_depan": "Keito",
+    "peran": "Art",
+    "nama_belakang": "Koume"
+  },
+  {
+    "id": 35957,
+    "nama_depan": "Yousuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Kaneda"
+  },
+  {
+    "id": 12126,
+    "nama_depan": "Gwang-Su",
+    "peran": "Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 12124,
+    "nama_depan": "Jae-Ho",
+    "peran": "Story",
+    "nama_belakang": "Son"
+  },
+  {
+    "id": 3718,
+    "nama_depan": "Asumiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakamura"
+  },
+  {
+    "id": 428,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Suetsugu"
+  },
+  {
+    "id": 2564,
+    "nama_depan": "Amyuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakura"
+  },
+  {
+    "id": 1049,
+    "nama_depan": "Noizi",
+    "peran": "Art",
+    "nama_belakang": "Itou"
+  },
+  {
+    "id": 1048,
+    "nama_depan": "Nagaru",
+    "peran": "Story",
+    "nama_belakang": "Tanigawa"
+  },
+  {
+    "id": 15340,
+    "nama_depan": "Takashi",
+    "peran": "Story",
+    "nama_belakang": "Nagasaki"
+  },
+  {
+    "id": 2214,
+    "nama_depan": "Sorata",
+    "peran": "Story & Art",
+    "nama_belakang": "Akizuki"
+  },
+  {
+    "id": 51,
+    "nama_depan": "Hisaya",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakajo"
+  },
+  {
+    "id": 24334,
+    "nama_depan": "Toshiya",
+    "peran": "Story & Art",
+    "nama_belakang": "Wakabayashi"
+  },
+  {
+    "id": 3194,
+    "nama_depan": "Atsushi",
+    "peran": "Story & Art",
+    "nama_belakang": "Ookubo"
+  },
+  {
+    "id": 8488,
+    "nama_depan": "Yuka",
+    "peran": "Art",
+    "nama_belakang": "Fujikawa"
+  },
+  {
+    "id": 48455,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "D Jun"
+  },
+  {
+    "id": 11824,
+    "nama_depan": "Hinoki",
+    "peran": "Art",
+    "nama_belakang": "Kino"
+  },
+  {
+    "id": 5143,
+    "nama_depan": "Atsuko",
+    "peran": "Story",
+    "nama_belakang": "Asano"
+  },
+  {
+    "id": 14,
+    "nama_depan": "Masashi",
+    "peran": "Story & Art",
+    "nama_belakang": "Kishimoto"
+  },
+  {
+    "id": 464,
+    "nama_depan": "Fuyumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Souryo"
+  },
+  {
+    "id": 4989,
+    "nama_depan": "Tadatoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujimaki"
+  },
+  {
+    "id": 23338,
+    "nama_depan": "Gan",
+    "peran": "Story",
+    "nama_belakang": "Sunaaku"
+  },
+  {
+    "id": 23336,
+    "nama_depan": "Hikaru",
+    "peran": "Art",
+    "nama_belakang": "Suruga"
+  },
+  {
+    "id": 81,
+    "nama_depan": "Naoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Takeuchi"
+  },
+  {
+    "id": 1771,
+    "nama_depan": "Akihisa",
+    "peran": "Story & Art",
+    "nama_belakang": "Ikeda"
+  },
+  {
+    "id": 6629,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kodama"
+  },
+  {
+    "id": 8485,
+    "nama_depan": "Shinichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Fukuda"
+  },
+  {
+    "id": 7983,
+    "nama_depan": "Satsuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshino"
+  },
+  {
+    "id": 4110,
+    "nama_depan": "Venio",
+    "peran": "Story",
+    "nama_belakang": "Tachibana"
+  },
+  {
+    "id": 2680,
+    "nama_depan": "Rihito",
+    "peran": "Art",
+    "nama_belakang": "Takarai"
+  },
+  {
+    "id": 564,
+    "nama_depan": "Tatsuhiko",
+    "peran": "Story",
+    "nama_belakang": "Takimoto"
+  },
+  {
+    "id": 563,
+    "nama_depan": "Kenji",
+    "peran": "Art",
+    "nama_belakang": "Ooiwa"
+  },
+  {
+    "id": 792,
+    "nama_depan": "Makoto",
+    "peran": "Story & Art",
+    "nama_belakang": "Raiku"
+  },
+  {
+    "id": 719,
+    "nama_depan": "Syun",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsuena"
+  },
+  {
+    "id": 72,
+    "nama_depan": "Kozue",
+    "peran": "Story & Art",
+    "nama_belakang": "Amano"
+  },
+  {
+    "id": 6711,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Maybe"
+  },
+  {
+    "id": 52139,
+    "nama_depan": "Yukinobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Tatsu"
+  },
+  {
+    "id": 5324,
+    "nama_depan": "Yuuki",
+    "peran": "Art",
+    "nama_belakang": "Yugo"
+  },
+  {
+    "id": 801,
+    "nama_depan": "Yoshiaki",
+    "peran": "Story",
+    "nama_belakang": "Tabata"
+  },
+  {
+    "id": 1129,
+    "nama_depan": "Kenta",
+    "peran": "Story & Art",
+    "nama_belakang": "Shinohara"
+  },
+  {
+    "id": 713,
+    "nama_depan": "Rei",
+    "peran": "Story & Art",
+    "nama_belakang": "Hiroe"
+  },
+  {
+    "id": 1838,
+    "nama_depan": "Miki",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshikawa"
+  },
+  {
+    "id": 53,
+    "nama_depan": "Shungiku",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakamura"
+  },
+  {
+    "id": 494,
+    "nama_depan": "Suu",
+    "peran": "Story & Art",
+    "nama_belakang": "Minazuki"
+  },
+  {
+    "id": 20162,
+    "nama_depan": "Tomo",
+    "peran": "Story & Art",
+    "nama_belakang": "Takeuchi"
+  },
+  {
+    "id": 35879,
+    "nama_depan": "Megumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Morino"
+  },
+  {
+    "id": 657,
+    "nama_depan": "Kazune",
+    "peran": "Story & Art",
+    "nama_belakang": "Kawahara"
+  },
+  {
+    "id": 36628,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Nagabe"
+  },
+  {
+    "id": 47287,
+    "nama_depan": "Daisuke",
+    "peran": "Story",
+    "nama_belakang": "Aizawa"
+  },
+  {
+    "id": 10972,
+    "nama_depan": "Anri",
+    "peran": "Art",
+    "nama_belakang": "Sakano"
+  },
+  {
+    "id": 706,
+    "nama_depan": "Yoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Kamio"
+  },
+  {
+    "id": 20306,
+    "nama_depan": "Ryoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Kui"
+  },
+  {
+    "id": 45799,
+    "nama_depan": "Shiro",
+    "peran": "Art",
+    "nama_belakang": "Usazaki"
+  },
+  {
+    "id": 45798,
+    "nama_depan": "Tatsuya",
+    "peran": "Story",
+    "nama_belakang": "Matsuki"
+  },
+  {
+    "id": 22508,
+    "nama_depan": "Souichirou",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamamoto"
+  },
+  {
+    "id": 39848,
+    "nama_depan": "Kabi",
+    "peran": "Story & Art",
+    "nama_belakang": "Nagata"
+  },
+  {
+    "id": 1907,
+    "nama_depan": "Hiroki",
+    "peran": "Story & Art",
+    "nama_belakang": "Endo"
+  },
+  {
+    "id": 67,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Oh! Great"
+  },
+  {
+    "id": 1317,
+    "nama_depan": "Milk",
+    "peran": "Story & Art",
+    "nama_belakang": "Morinaga"
+  },
+  {
+    "id": 24,
+    "nama_depan": "Yumi",
+    "peran": "Story",
+    "nama_belakang": "Hotta"
+  },
+  {
+    "id": 2321,
+    "nama_depan": "Akiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Higashimura"
+  },
+  {
+    "id": 7994,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Andou"
+  },
+  {
+    "id": 530,
+    "nama_depan": "Tomoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Ninomiya"
+  },
+  {
+    "id": 4392,
+    "nama_depan": "Kou",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoneda"
+  },
+  {
+    "id": 337,
+    "nama_depan": "Kyung-il",
+    "peran": "Art",
+    "nama_belakang": "Yang"
+  },
+  {
+    "id": 184,
+    "nama_depan": "In-Wan",
+    "peran": "Story",
+    "nama_belakang": "Yoon"
+  },
+  {
+    "id": 468,
+    "nama_depan": "Shimoku",
+    "peran": "Story & Art",
+    "nama_belakang": "Kio"
+  },
+  {
+    "id": 16182,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Yuu"
+  },
+  {
+    "id": 3202,
+    "nama_depan": "Mamoru",
+    "peran": "Story",
+    "nama_belakang": "Hosoda"
+  },
+  {
+    "id": 1639,
+    "nama_depan": "Keiichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Arawi"
+  },
+  {
+    "id": 1375,
+    "nama_depan": "Kotetsuko",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamamoto"
+  },
+  {
+    "id": 1023,
+    "nama_depan": "Jinsei",
+    "peran": "Story & Art",
+    "nama_belakang": "Kataoka"
+  },
+  {
+    "id": 1022,
+    "nama_depan": "Kazuma",
+    "peran": "Story & Art",
+    "nama_belakang": "Kondou"
+  },
+  {
+    "id": 6104,
+    "nama_depan": "Chuuya",
+    "peran": "Story & Art",
+    "nama_belakang": "Koyama"
+  },
+  {
+    "id": 41718,
+    "nama_depan": "Asato",
+    "peran": "Story",
+    "nama_belakang": "Asato"
+  },
+  {
+    "id": 16954,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Shirabi"
+  },
+  {
+    "id": 4930,
+    "nama_depan": "Kiyotaka",
+    "peran": "Art",
+    "nama_belakang": "Haimura"
+  },
+  {
+    "id": 3524,
+    "nama_depan": "Kazuma",
+    "peran": "Story",
+    "nama_belakang": "Kamachi"
+  },
+  {
+    "id": 19,
+    "nama_depan": "Miho",
+    "peran": "Story & Art",
+    "nama_belakang": "Obana"
+  },
+  {
+    "id": 20,
+    "nama_depan": "Masami",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsuda"
+  },
+  {
+    "id": 11281,
+    "nama_depan": "Ruri",
+    "peran": "Story & Art",
+    "nama_belakang": "Miyahara"
+  },
+  {
+    "id": 34823,
+    "nama_depan": "Negi",
+    "peran": "Story & Art",
+    "nama_belakang": "Haruba"
+  },
+  {
+    "id": 8443,
+    "nama_depan": "Gen",
+    "peran": "Story",
+    "nama_belakang": "Urobuchi"
+  },
+  {
+    "id": 2189,
+    "nama_depan": "Takashi",
+    "peran": "Art",
+    "nama_belakang": "Takeuchi"
+  },
+  {
+    "id": 2901,
+    "nama_depan": "Naoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Komi"
+  },
+  {
+    "id": 239,
+    "nama_depan": "Mitsuru",
+    "peran": "Story & Art",
+    "nama_belakang": "Adachi"
+  },
+  {
+    "id": 40291,
+    "nama_depan": "Shou",
+    "peran": "Story & Art",
+    "nama_belakang": "Harusono"
+  },
+  {
+    "id": 1183,
+    "nama_depan": "Toshiaki",
+    "peran": "Story & Art",
+    "nama_belakang": "Iwashiro"
+  },
+  {
+    "id": 7165,
+    "nama_depan": "Shuuichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Asou"
+  },
+  {
+    "id": 10568,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Hanokage"
+  },
+  {
+    "id": 7631,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Magica Quartet"
+  },
+  {
+    "id": 12934,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Miyama-Zero"
+  },
+  {
+    "id": 10473,
+    "nama_depan": "Ichiei",
+    "peran": "Story",
+    "nama_belakang": "Ishibumi"
+  },
+  {
+    "id": 44193,
+    "nama_depan": "Mifumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Inaba"
+  },
+  {
+    "id": 37941,
+    "nama_depan": "Okina",
+    "peran": "Story",
+    "nama_belakang": "Baba"
+  },
+  {
+    "id": 37940,
+    "nama_depan": "Tsukasa",
+    "peran": "Art",
+    "nama_belakang": "Kiryuu"
+  },
+  {
+    "id": 71,
+    "nama_depan": "Chie",
+    "peran": "Story & Art",
+    "nama_belakang": "Shinohara"
+  },
+  {
+    "id": 94,
+    "nama_depan": "Matsuri",
+    "peran": "Story & Art",
+    "nama_belakang": "Akino"
+  },
+  {
+    "id": 11986,
+    "nama_depan": "Sana",
+    "peran": "Story & Art",
+    "nama_belakang": "Kirioka"
+  },
+  {
+    "id": 8498,
+    "nama_depan": "Shinji",
+    "peran": "Story",
+    "nama_belakang": "Kajio"
+  },
+  {
+    "id": 66,
+    "nama_depan": "Kenji",
+    "peran": "Art",
+    "nama_belakang": "Tsuruta"
+  },
+  {
+    "id": 983,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Buronson"
+  },
+  {
+    "id": 982,
+    "nama_depan": "Tetsuo",
+    "peran": "Art",
+    "nama_belakang": "Hara"
+  },
+  {
+    "id": 10382,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Kohske"
+  },
+  {
+    "id": 6678,
+    "nama_depan": "Motoi",
+    "peran": "Art",
+    "nama_belakang": "Fuyukawa"
+  },
+  {
+    "id": 456,
+    "nama_depan": "Daisuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Moriyama"
+  },
+  {
+    "id": 17582,
+    "nama_depan": "Sadoru",
+    "peran": "Art",
+    "nama_belakang": "Chiba"
+  },
+  {
+    "id": 4468,
+    "nama_depan": "Norimitsu",
+    "peran": "Story",
+    "nama_belakang": "Kaihou"
+  },
+  {
+    "id": 3946,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "KAITO"
+  },
+  {
+    "id": 34284,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Fumino"
+  },
+  {
+    "id": 13,
+    "nama_depan": "Arina",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanemura"
+  },
+  {
+    "id": 689,
+    "nama_depan": "Kiyoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Arai"
+  },
+  {
+    "id": 1127,
+    "nama_depan": "Go",
+    "peran": "Story & Art",
+    "nama_belakang": "Nagai"
+  },
+  {
+    "id": 408,
+    "nama_depan": "Hinako",
+    "peran": "Story & Art",
+    "nama_belakang": "Takanaga"
+  },
+  {
+    "id": 31784,
+    "nama_depan": "Nanaki",
+    "peran": "Story & Art",
+    "nama_belakang": "Nanao"
+  },
+  {
+    "id": 3043,
+    "nama_depan": "Masasumi",
+    "peran": "Art",
+    "nama_belakang": "Kakizaki"
+  },
+  {
+    "id": 120,
+    "nama_depan": "George",
+    "peran": "Story",
+    "nama_belakang": "Abe"
+  },
+  {
+    "id": 9377,
+    "nama_depan": "Wakou",
+    "peran": "Story & Art",
+    "nama_belakang": "Honna"
+  },
+  {
+    "id": 9601,
+    "nama_depan": "Reki",
+    "peran": "Story",
+    "nama_belakang": "Kawahara"
+  },
+  {
+    "id": 8877,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "BUNBUN"
+  },
+  {
+    "id": 3227,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Ryukishi07"
+  },
+  {
+    "id": 1050,
+    "nama_depan": "Karin",
+    "peran": "Art",
+    "nama_belakang": "Suzuragi"
+  },
+  {
+    "id": 13428,
+    "nama_depan": "Akiko",
+    "peran": "Story",
+    "nama_belakang": "Abe"
+  },
+  {
+    "id": 20126,
+    "nama_depan": "Tsuina",
+    "peran": "Story",
+    "nama_belakang": "Miura"
+  },
+  {
+    "id": 20124,
+    "nama_depan": "Gamon",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakurai"
+  },
+  {
+    "id": 26,
+    "nama_depan": "Rumiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Takahashi"
+  },
+  {
+    "id": 19574,
+    "nama_depan": "Yoshifumi",
+    "peran": "Art",
+    "nama_belakang": "Ohtera"
+  },
+  {
+    "id": 18,
+    "nama_depan": "Ken",
+    "peran": "Story & Art",
+    "nama_belakang": "Akamatsu"
+  },
+  {
+    "id": 46667,
+    "nama_depan": "Miku",
+    "peran": "Story & Art",
+    "nama_belakang": "Morinaga"
+  },
+  {
+    "id": 6187,
+    "nama_depan": "Kazue",
+    "peran": "Story & Art",
+    "nama_belakang": "Katou"
+  },
+  {
+    "id": 654,
+    "nama_depan": "Takako",
+    "peran": "Story & Art",
+    "nama_belakang": "Shimura"
+  },
+  {
+    "id": 21618,
+    "nama_depan": "Fumita",
+    "peran": "Story & Art",
+    "nama_belakang": "Yanagida"
+  },
+  {
+    "id": 819,
+    "nama_depan": "Yuuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Obata"
+  },
+  {
+    "id": 1156,
+    "nama_depan": "Goseki",
+    "peran": "Art",
+    "nama_belakang": "Kojima"
+  },
+  {
+    "id": 1155,
+    "nama_depan": "Kazuo",
+    "peran": "Story",
+    "nama_belakang": "Koike"
+  },
+  {
+    "id": 491,
+    "nama_depan": "Kaori",
+    "peran": "Story & Art",
+    "nama_belakang": "Ozaki"
+  },
+  {
+    "id": 7140,
+    "nama_depan": "Mitsubachi",
+    "peran": "Story & Art",
+    "nama_belakang": "Miyuki"
+  },
+  {
+    "id": 15736,
+    "nama_depan": "Kana",
+    "peran": "Art",
+    "nama_belakang": "Ishida"
+  },
+  {
+    "id": 13748,
+    "nama_depan": "Tsutomu",
+    "peran": "Story",
+    "nama_belakang": "Satou"
+  },
+  {
+    "id": 1968,
+    "nama_depan": "Rei",
+    "peran": "Story & Art",
+    "nama_belakang": "Touma"
+  },
+  {
+    "id": 2745,
+    "nama_depan": "Yuuji",
+    "peran": "Story & Art",
+    "nama_belakang": "Terajima"
+  },
+  {
+    "id": 2635,
+    "nama_depan": "Hiroshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiibashi"
+  },
+  {
+    "id": 41360,
+    "nama_depan": "Yunji",
+    "peran": "Story & Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 2623,
+    "nama_depan": "Keisuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Itagaki"
+  },
+  {
+    "id": 27540,
+    "nama_depan": "Seira",
+    "peran": "Art",
+    "nama_belakang": "Minami"
+  },
+  {
+    "id": 27538,
+    "nama_depan": "Yusagi",
+    "peran": "Story",
+    "nama_belakang": "Aneko"
+  },
+  {
+    "id": 3731,
+    "nama_depan": "Hikaru",
+    "peran": "Story & Art",
+    "nama_belakang": "Katsuki"
+  },
+  {
+    "id": 45029,
+    "nama_depan": "Kintetsu",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamada"
+  },
+  {
+    "id": 1600,
+    "nama_depan": "Nicky",
+    "peran": "Story & Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 2475,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Aruko"
+  },
+  {
+    "id": 1335,
+    "nama_depan": "Ha Jin",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoo"
+  },
+  {
+    "id": 1233,
+    "nama_depan": "Yasuhiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Nightow"
+  },
+  {
+    "id": 540,
+    "nama_depan": "Kouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Seo"
+  },
+  {
+    "id": 745,
+    "nama_depan": "Fujio F.",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujiko"
+  },
+  {
+    "id": 17686,
+    "nama_depan": "Hikaru",
+    "peran": "Art",
+    "nama_belakang": "Miyoshi"
+  },
+  {
+    "id": 10958,
+    "nama_depan": "Ryousuke",
+    "peran": "Story",
+    "nama_belakang": "Takeuchi"
+  },
+  {
+    "id": 691,
+    "nama_depan": "Mohiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Kitoh"
+  },
+  {
+    "id": 5471,
+    "nama_depan": "Hiromi",
+    "peran": "Story & Art",
+    "nama_belakang": "Takashima"
+  },
+  {
+    "id": 10401,
+    "nama_depan": "Sayman",
+    "peran": "Story & Art",
+    "nama_belakang": "Dowman"
+  },
+  {
+    "id": 733,
+    "nama_depan": "Ayano",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamane"
+  },
+  {
+    "id": 567,
+    "nama_depan": "Hari",
+    "peran": "Story & Art",
+    "nama_belakang": "Tokeino"
+  },
+  {
+    "id": 342,
+    "nama_depan": "Ryoichi",
+    "peran": "Art",
+    "nama_belakang": "Ikegami"
+  },
+  {
+    "id": 25550,
+    "nama_depan": "Jun",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakura"
+  },
+  {
+    "id": 1826,
+    "nama_depan": "Shiori",
+    "peran": "Story & Art",
+    "nama_belakang": "Teshirogi"
+  },
+  {
+    "id": 134,
+    "nama_depan": "Masami",
+    "peran": "Story",
+    "nama_belakang": "Kurumada"
+  },
+  {
+    "id": 3732,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Yasu"
+  },
+  {
+    "id": 3010,
+    "nama_depan": "Yuyuko",
+    "peran": "Story",
+    "nama_belakang": "Takemiya"
+  },
+  {
+    "id": 108,
+    "nama_depan": "Koushun",
+    "peran": "Story",
+    "nama_belakang": "Takami"
+  },
+  {
+    "id": 107,
+    "nama_depan": "Masayuki",
+    "peran": "Art",
+    "nama_belakang": "Taguchi"
+  },
+  {
+    "id": 9002,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Junko"
+  },
+  {
+    "id": 678,
+    "nama_depan": "Matsuri",
+    "peran": "Story & Art",
+    "nama_belakang": "Hino"
+  },
+  {
+    "id": 624,
+    "nama_depan": "Meca",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanaka"
+  },
+  {
+    "id": 492,
+    "nama_depan": "Shuuichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Shigeno"
+  },
+  {
+    "id": 43,
+    "nama_depan": "Yasuhiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Kano"
+  },
+  {
+    "id": 1051,
+    "nama_depan": "Yutori",
+    "peran": "Art",
+    "nama_belakang": "Houjou"
+  },
+  {
+    "id": 13714,
+    "nama_depan": "Yasunobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamauchi"
+  },
+  {
+    "id": 674,
+    "nama_depan": "Nobuyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Fukumoto"
+  },
+  {
+    "id": 52182,
+    "nama_depan": "Min",
+    "peran": "Art",
+    "nama_belakang": "Hae"
+  },
+  {
+    "id": 52181,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Woogack"
+  },
+  {
+    "id": 22956,
+    "nama_depan": "Eiji",
+    "peran": "Story & Art",
+    "nama_belakang": "Masuda"
+  },
+  {
+    "id": 20300,
+    "nama_depan": "Fugin",
+    "peran": "Art",
+    "nama_belakang": "Miyama"
+  },
+  {
+    "id": 31202,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Kotoyama"
+  },
+  {
+    "id": 47174,
+    "nama_depan": "Tomoki",
+    "peran": "Story & Art",
+    "nama_belakang": "Izumi"
+  },
+  {
+    "id": 51924,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Mingwa"
+  },
+  {
+    "id": 20458,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Soumatou"
+  },
+  {
+    "id": 6957,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Zekkyou"
+  },
+  {
+    "id": 85,
+    "nama_depan": "Yellow",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanabe"
+  },
+  {
+    "id": 744,
+    "nama_depan": "Masamune",
+    "peran": "Story & Art",
+    "nama_belakang": "Shirow"
+  },
+  {
+    "id": 17,
+    "nama_depan": "Hiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Mashima"
+  },
+  {
+    "id": 10427,
+    "nama_depan": "Yukiko",
+    "peran": "Art",
+    "nama_belakang": "Seike"
+  },
+  {
+    "id": 846,
+    "nama_depan": "Lynn",
+    "peran": "Story & Art",
+    "nama_belakang": "Okamoto"
+  },
+  {
+    "id": 13198,
+    "nama_depan": "Yuuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Tabata"
+  },
+  {
+    "id": 22606,
+    "nama_depan": "Fujino",
+    "peran": "Story",
+    "nama_belakang": "Omori"
+  },
+  {
+    "id": 1384,
+    "nama_depan": "Suzuhito",
+    "peran": "Art",
+    "nama_belakang": "Yasuda"
+  },
+  {
+    "id": 4997,
+    "nama_depan": "Yuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Moegi"
+  },
+  {
+    "id": 9558,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Takahiro"
+  },
+  {
+    "id": 7162,
+    "nama_depan": "Tetsuya",
+    "peran": "Art",
+    "nama_belakang": "Tashiro"
+  },
+  {
+    "id": 270,
+    "nama_depan": "Jin",
+    "peran": "Story & Art",
+    "nama_belakang": "Kobayashi"
+  },
+  {
+    "id": 957,
+    "nama_depan": "Kou",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsuzuki"
+  },
+  {
+    "id": 13622,
+    "nama_depan": "Kyu",
+    "peran": "Art",
+    "nama_belakang": "Aiya"
+  },
+  {
+    "id": 48432,
+    "nama_depan": "Kousei",
+    "peran": "Story & Art",
+    "nama_belakang": "Eguchi"
+  },
+  {
+    "id": 29590,
+    "nama_depan": "Shiori",
+    "peran": "Story & Art",
+    "nama_belakang": "Amase"
+  },
+  {
+    "id": 10946,
+    "nama_depan": "Minami",
+    "peran": "Story & Art",
+    "nama_belakang": "Mizuno"
+  },
+  {
+    "id": 3269,
+    "nama_depan": "Youko",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujitani"
+  },
+  {
+    "id": 1886,
+    "nama_depan": "Kei",
+    "peran": "Art",
+    "nama_belakang": "Natsumi"
+  },
+  {
+    "id": 1043,
+    "nama_depan": "Maki",
+    "peran": "Story & Art",
+    "nama_belakang": "Minami"
+  },
+  {
+    "id": 23362,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Cool-kyou Shinja"
+  },
+  {
+    "id": 1109,
+    "nama_depan": "Shirow",
+    "peran": "Story & Art",
+    "nama_belakang": "Miwa"
+  },
+  {
+    "id": 16160,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "namo"
+  },
+  {
+    "id": 944,
+    "nama_depan": "Yumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Tamura"
+  },
+  {
+    "id": 17936,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Akitaka"
+  },
+  {
+    "id": 2248,
+    "nama_depan": "Makoto",
+    "peran": "Story",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 35989,
+    "nama_depan": "Carlo",
+    "peran": "Story",
+    "nama_belakang": "Zen"
+  },
+  {
+    "id": 16828,
+    "nama_depan": "Chika",
+    "peran": "Art",
+    "nama_belakang": "Toujou"
+  },
+  {
+    "id": 1295,
+    "nama_depan": "Hiroshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Takahashi"
+  },
+  {
+    "id": 1083,
+    "nama_depan": "Ryohgo",
+    "peran": "Story",
+    "nama_belakang": "Narita"
+  },
+  {
+    "id": 797,
+    "nama_depan": "Kouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Kumeta"
+  },
+  {
+    "id": 905,
+    "nama_depan": "Hiroyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Nishimori"
+  },
+  {
+    "id": 39537,
+    "nama_depan": "Akiko",
+    "peran": "Art",
+    "nama_belakang": "Takase"
+  },
+  {
+    "id": 20850,
+    "nama_depan": "Kana",
+    "peran": "Story",
+    "nama_belakang": "Akatsuki"
+  },
+  {
+    "id": 41276,
+    "nama_depan": "Nene",
+    "peran": "Story & Art",
+    "nama_belakang": "Yukimori"
+  },
+  {
+    "id": 1140,
+    "nama_depan": "Kotomi",
+    "peran": "Story & Art",
+    "nama_belakang": "Aoki"
+  },
+  {
+    "id": 9304,
+    "nama_depan": "Shiki",
+    "peran": "Story",
+    "nama_belakang": "Piro"
+  },
+  {
+    "id": 9301,
+    "nama_depan": "Takana",
+    "peran": "Art",
+    "nama_belakang": "Hotaru"
+  },
+  {
+    "id": 532,
+    "nama_depan": "Tomoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Hayakawa"
+  },
+  {
+    "id": 9157,
+    "nama_depan": "Sang Ho",
+    "peran": "Story & Art",
+    "nama_belakang": "Woo"
+  },
+  {
+    "id": 10582,
+    "nama_depan": "Yoshiaki",
+    "peran": "Story & Art",
+    "nama_belakang": "Sukeno"
+  },
+  {
+    "id": 1092,
+    "nama_depan": "Yukino",
+    "peran": "Art",
+    "nama_belakang": "Ichihara"
+  },
+  {
+    "id": 1091,
+    "nama_depan": "Yuki",
+    "peran": "Story",
+    "nama_belakang": "Amemiya"
+  },
+  {
+    "id": 1559,
+    "nama_depan": "Kanae",
+    "peran": "Story & Art",
+    "nama_belakang": "Hazuki"
+  },
+  {
+    "id": 806,
+    "nama_depan": "Kyouko",
+    "peran": "Story & Art",
+    "nama_belakang": "Hikawa"
+  },
+  {
+    "id": 9585,
+    "nama_depan": "Aki",
+    "peran": "Story & Art",
+    "nama_belakang": "Irie"
+  },
+  {
+    "id": 9050,
+    "nama_depan": "Saki",
+    "peran": "Story",
+    "nama_belakang": "Hasemi"
+  },
+  {
+    "id": 35,
+    "nama_depan": "Kentarou",
+    "peran": "Art",
+    "nama_belakang": "Yabuki"
+  },
+  {
+    "id": 544,
+    "nama_depan": "Taiyou",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsumoto"
+  },
+  {
+    "id": 21506,
+    "nama_depan": "Seok Woo",
+    "peran": "Story & Art",
+    "nama_belakang": "Kang"
+  },
+  {
+    "id": 11648,
+    "nama_depan": "Yomi",
+    "peran": "Art",
+    "nama_belakang": "Sarachi"
+  },
+  {
+    "id": 3095,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Nitroplus"
+  },
+  {
+    "id": 48077,
+    "nama_depan": "Xiang",
+    "peran": "Art",
+    "nama_belakang": "Ren"
+  },
+  {
+    "id": 47547,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Tian Can Tu Dou"
+  },
+  {
+    "id": 3773,
+    "nama_depan": "Wo",
+    "peran": "Story",
+    "nama_belakang": "Yu"
+  },
+  {
+    "id": 3772,
+    "nama_depan": "Hong Chong",
+    "peran": "Art",
+    "nama_belakang": "Choi"
+  },
+  {
+    "id": 6777,
+    "nama_depan": "Yuu",
+    "peran": "Art",
+    "nama_belakang": "Yoshii"
+  },
+  {
+    "id": 218,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Yoshi"
+  },
+  {
+    "id": 51731,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "SUOL"
+  },
+  {
+    "id": 51730,
+    "nama_depan": "Gyeoeul",
+    "peran": "Story",
+    "nama_belakang": "Gwon"
+  },
+  {
+    "id": 122,
+    "nama_depan": "Miyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Abe"
+  },
+  {
+    "id": 371,
+    "nama_depan": "Eiki",
+    "peran": "Story",
+    "nama_belakang": "Eiki"
+  },
+  {
+    "id": 140,
+    "nama_depan": "Mikiyo",
+    "peran": "Art",
+    "nama_belakang": "Tsuda"
+  },
+  {
+    "id": 37231,
+    "nama_depan": "Masakuni",
+    "peran": "Story & Art",
+    "nama_belakang": "Igarashi"
+  },
+  {
+    "id": 680,
+    "nama_depan": "Go",
+    "peran": "Story & Art",
+    "nama_belakang": "Ikeyamada"
+  },
+  {
+    "id": 24314,
+    "nama_depan": "Nozomi",
+    "peran": "Story & Art",
+    "nama_belakang": "Uda"
+  },
+  {
+    "id": 1370,
+    "nama_depan": "Norio",
+    "peran": "Story",
+    "nama_belakang": "Nanjou"
+  },
+  {
+    "id": 770,
+    "nama_depan": "Takayuki",
+    "peran": "Art",
+    "nama_belakang": "Yamaguchi"
+  },
+  {
+    "id": 174,
+    "nama_depan": "Kaori",
+    "peran": "Story & Art",
+    "nama_belakang": "Yuki"
+  },
+  {
+    "id": 1817,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Syundei"
+  },
+  {
+    "id": 45517,
+    "nama_depan": "Tae-Jun",
+    "peran": "Story & Art",
+    "nama_belakang": "Park"
+  },
+  {
+    "id": 45,
+    "nama_depan": "Hiroyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Takei"
+  },
+  {
+    "id": 7289,
+    "nama_depan": "Osamu",
+    "peran": "Story",
+    "nama_belakang": "Dazai"
+  },
+  {
+    "id": 54,
+    "nama_depan": "Usamaru",
+    "peran": "Story & Art",
+    "nama_belakang": "Furuya"
+  },
+  {
+    "id": 9150,
+    "nama_depan": "Takashi",
+    "peran": "Story & Art",
+    "nama_belakang": "Murakami"
+  },
+  {
+    "id": 15400,
+    "nama_depan": "Asahiro",
+    "peran": "Art",
+    "nama_belakang": "Kakashi"
+  },
+  {
+    "id": 4410,
+    "nama_depan": "Touya",
+    "peran": "Story & Art",
+    "nama_belakang": "Mikanagi"
+  },
+  {
+    "id": 15778,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Soonkki"
+  },
+  {
+    "id": 4313,
+    "nama_depan": "Makoto",
+    "peran": "Story & Art",
+    "nama_belakang": "Ojiro"
+  },
+  {
+    "id": 31764,
+    "nama_depan": "Kanna",
+    "peran": "Story & Art",
+    "nama_belakang": "Kii"
+  },
+  {
+    "id": 19854,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Souichirou"
+  },
+  {
+    "id": 16384,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Jin"
+  },
+  {
+    "id": 13440,
+    "nama_depan": "Mahiro",
+    "peran": "Art",
+    "nama_belakang": "Satou"
+  },
+  {
+    "id": 33002,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "ue"
+  },
+  {
+    "id": 30126,
+    "nama_depan": "Akira",
+    "peran": "Story",
+    "nama_belakang": "Kareno"
+  },
+  {
+    "id": 525,
+    "nama_depan": "Natsumi",
+    "peran": "Art",
+    "nama_belakang": "Ando"
+  },
+  {
+    "id": 524,
+    "nama_depan": "Miyuki",
+    "peran": "Story",
+    "nama_belakang": "Kobayashi"
+  },
+  {
+    "id": 6397,
+    "nama_depan": "Kemuri",
+    "peran": "Story & Art",
+    "nama_belakang": "Karakara"
+  },
+  {
+    "id": 49,
+    "nama_depan": "Youko",
+    "peran": "Story & Art",
+    "nama_belakang": "Maki"
+  },
+  {
+    "id": 6349,
+    "nama_depan": "Tomoya",
+    "peran": "Story & Art",
+    "nama_belakang": "Haruno"
+  },
+  {
+    "id": 656,
+    "nama_depan": "Yasunori",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanaka"
+  },
+  {
+    "id": 15,
+    "nama_depan": "Tite",
+    "peran": "Story & Art",
+    "nama_belakang": "Kubo"
+  },
+  {
+    "id": 19044,
+    "nama_depan": "Naohiko",
+    "peran": "Story",
+    "nama_belakang": "Ueno"
+  },
+  {
+    "id": 1602,
+    "nama_depan": "Yuugo",
+    "peran": "Story & Art",
+    "nama_belakang": "Kobayashi"
+  },
+  {
+    "id": 8390,
+    "nama_depan": "Hiroshi",
+    "peran": "Art",
+    "nama_belakang": "Ueda"
+  },
+  {
+    "id": 757,
+    "nama_depan": "Shouji",
+    "peran": "Story",
+    "nama_belakang": "Gatou"
+  },
+  {
+    "id": 1613,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Aki★Eda"
+  },
+  {
+    "id": 23384,
+    "nama_depan": "Katsuhisa",
+    "peran": "Story & Art",
+    "nama_belakang": "Minami"
+  },
+  {
+    "id": 1515,
+    "nama_depan": "Kai",
+    "peran": "Story & Art",
+    "nama_belakang": "Asou"
+  },
+  {
+    "id": 7312,
+    "nama_depan": "Naoya",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsumoto"
+  },
+  {
+    "id": 30052,
+    "nama_depan": "Feng Chun",
+    "peran": "Art",
+    "nama_belakang": "Mu"
+  },
+  {
+    "id": 30050,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Tang Jia San Shao"
+  },
+  {
+    "id": 25222,
+    "nama_depan": "Scarlet",
+    "peran": "Story & Art",
+    "nama_belakang": "Beriko"
+  },
+  {
+    "id": 1378,
+    "nama_depan": "Yonezou",
+    "peran": "Story & Art",
+    "nama_belakang": "Nekota"
+  },
+  {
+    "id": 47791,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Gorae"
+  },
+  {
+    "id": 47748,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Milcha"
+  },
+  {
+    "id": 50707,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "SAM"
+  },
+  {
+    "id": 8830,
+    "nama_depan": "Hinase",
+    "peran": "Art",
+    "nama_belakang": "Momoyama"
+  },
+  {
+    "id": 1253,
+    "nama_depan": "Cocoa",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujiwara"
+  },
+  {
+    "id": 248,
+    "nama_depan": "Yuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Aida"
+  },
+  {
+    "id": 9055,
+    "nama_depan": "Yeong-Hun",
+    "peran": "Story & Art",
+    "nama_belakang": "Go"
+  },
+  {
+    "id": 1786,
+    "nama_depan": "Maki",
+    "peran": "Story & Art",
+    "nama_belakang": "Enjouji"
+  },
+  {
+    "id": 969,
+    "nama_depan": "Kozueko",
+    "peran": "Story & Art",
+    "nama_belakang": "Morimoto"
+  },
+  {
+    "id": 8495,
+    "nama_depan": "Gido",
+    "peran": "Story & Art",
+    "nama_belakang": "Amagakure"
+  },
+  {
+    "id": 11656,
+    "nama_depan": "Suu",
+    "peran": "Story & Art",
+    "nama_belakang": "Morishita"
+  },
+  {
+    "id": 501,
+    "nama_depan": "Yayoi",
+    "peran": "Story & Art",
+    "nama_belakang": "Ogawa"
+  },
+  {
+    "id": 858,
+    "nama_depan": "Fuyumi",
+    "peran": "Story",
+    "nama_belakang": "Ono"
+  },
+  {
+    "id": 266,
+    "nama_depan": "Shiho",
+    "peran": "Story & Art",
+    "nama_belakang": "Inada"
+  },
+  {
+    "id": 1281,
+    "nama_depan": "Hiroshi",
+    "peran": "Story",
+    "nama_belakang": "Takashige"
+  },
+  {
+    "id": 935,
+    "nama_depan": "Ji-Hyung",
+    "peran": "Art",
+    "nama_belakang": "Song"
+  },
+  {
+    "id": 9931,
+    "nama_depan": "Da",
+    "peran": "Story & Art",
+    "nama_belakang": "Xia"
+  },
+  {
+    "id": 2218,
+    "nama_depan": "Takashi",
+    "peran": "Story & Art",
+    "nama_belakang": "Ikeda"
+  },
+  {
+    "id": 4803,
+    "nama_depan": "Rin",
+    "peran": "Story & Art",
+    "nama_belakang": "Mikimoto"
+  },
+  {
+    "id": 3912,
+    "nama_depan": "Geum Chel",
+    "peran": "Story & Art",
+    "nama_belakang": "Ryu"
+  },
+  {
+    "id": 50393,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Sumpul"
+  },
+  {
+    "id": 50392,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Alphatart"
+  },
+  {
+    "id": 4794,
+    "nama_depan": "Hidekaz",
+    "peran": "Story & Art",
+    "nama_belakang": "Himaruya"
+  },
+  {
+    "id": 6739,
+    "nama_depan": "Kei",
+    "peran": "Story & Art",
+    "nama_belakang": "Sasuga"
+  },
+  {
+    "id": 6297,
+    "nama_depan": "Akira",
+    "peran": "Art",
+    "nama_belakang": "Akatsuki"
+  },
+  {
+    "id": 44866,
+    "nama_depan": "Kento",
+    "peran": "Art",
+    "nama_belakang": "Sakaeda"
+  },
+  {
+    "id": 37935,
+    "nama_depan": "Kumo",
+    "peran": "Story",
+    "nama_belakang": "Kagyuu"
+  },
+  {
+    "id": 6920,
+    "nama_depan": "Daisuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Ashihara"
+  },
+  {
+    "id": 50908,
+    "nama_depan": "Yuuto",
+    "peran": "Story & Art",
+    "nama_belakang": "Suzuki"
+  },
+  {
+    "id": 1052,
+    "nama_depan": "Jirou",
+    "peran": "Art",
+    "nama_belakang": "Suzuki"
+  },
+  {
+    "id": 14504,
+    "nama_depan": "Kei",
+    "peran": "Story & Art",
+    "nama_belakang": "Ichikawa"
+  },
+  {
+    "id": 1160,
+    "nama_depan": "Jiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Taniguchi"
+  },
+  {
+    "id": 20844,
+    "nama_depan": "Kiseki",
+    "peran": "Art",
+    "nama_belakang": "Himura"
+  },
+  {
+    "id": 8801,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiwasu"
+  },
+  {
+    "id": 620,
+    "nama_depan": "Eita",
+    "peran": "Art",
+    "nama_belakang": "Mizuno"
+  },
+  {
+    "id": 49853,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Seopass"
+  },
+  {
+    "id": 39291,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "RAZEN"
+  },
+  {
+    "id": 414,
+    "nama_depan": "Kei",
+    "peran": "Story & Art",
+    "nama_belakang": "Kusunoki"
+  },
+  {
+    "id": 21538,
+    "nama_depan": "Kousuke",
+    "peran": "Art",
+    "nama_belakang": "Kurose"
+  },
+  {
+    "id": 1645,
+    "nama_depan": "Masanori",
+    "peran": "Story & Art",
+    "nama_belakang": "Morita"
+  },
+  {
+    "id": 12012,
+    "nama_depan": "Rensuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Oshikiri"
+  },
+  {
+    "id": 14522,
+    "nama_depan": "Mitsu",
+    "peran": "Art",
+    "nama_belakang": "Izumi"
+  },
+  {
+    "id": 1006,
+    "nama_depan": "Isaku",
+    "peran": "Story & Art",
+    "nama_belakang": "Natsume"
+  },
+  {
+    "id": 35988,
+    "nama_depan": "Shinobu",
+    "peran": "Art",
+    "nama_belakang": "Shinotsuki"
+  },
+  {
+    "id": 47284,
+    "nama_depan": "Shouta",
+    "peran": "Art",
+    "nama_belakang": "Itou"
+  },
+  {
+    "id": 47283,
+    "nama_depan": "Hajime",
+    "peran": "Story",
+    "nama_belakang": "Inoryuu"
+  },
+  {
+    "id": 18085,
+    "nama_depan": "Keiji",
+    "peran": "Art",
+    "nama_belakang": "Mizoguchi"
+  },
+  {
+    "id": 12148,
+    "nama_depan": "Hajime",
+    "peran": "Story",
+    "nama_belakang": "Kamoshida"
+  },
+  {
+    "id": 40,
+    "nama_depan": "Mizuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kawashita"
+  },
+  {
+    "id": 42592,
+    "nama_depan": "Yuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Saitou"
+  },
+  {
+    "id": 7202,
+    "nama_depan": "Akiyo",
+    "peran": "Art",
+    "nama_belakang": "Satorigi"
+  },
+  {
+    "id": 990,
+    "nama_depan": "Makoto",
+    "peran": "Story & Art",
+    "nama_belakang": "Isshiki"
+  },
+  {
+    "id": 65,
+    "nama_depan": "Yuu",
+    "peran": "Story & Art",
+    "nama_belakang": "Watase"
+  },
+  {
+    "id": 19164,
+    "nama_depan": "Mashiro",
+    "peran": "Art",
+    "nama_belakang": "Hiiragi"
+  },
+  {
+    "id": 14862,
+    "nama_depan": "Akio",
+    "peran": "Art",
+    "nama_belakang": "Hiragi"
+  },
+  {
+    "id": 14858,
+    "nama_depan": "Satoshi",
+    "peran": "Story",
+    "nama_belakang": "Wagahara"
+  },
+  {
+    "id": 4782,
+    "nama_depan": "Katsuhisa",
+    "peran": "Story & Art",
+    "nama_belakang": "Kigitsu"
+  },
+  {
+    "id": 21280,
+    "nama_depan": "Tsugumi",
+    "peran": "Art",
+    "nama_belakang": "Nanamiya"
+  },
+  {
+    "id": 38953,
+    "nama_depan": "Kouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Miura"
+  },
+  {
+    "id": 317,
+    "nama_depan": "Kazuya",
+    "peran": "Story & Art",
+    "nama_belakang": "Minekura"
+  },
+  {
+    "id": 19286,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Katsuwo"
+  },
+  {
+    "id": 10327,
+    "nama_depan": "Dai",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiina"
+  },
+  {
+    "id": 34827,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "M"
+  },
+  {
+    "id": 8734,
+    "nama_depan": "Aiji",
+    "peran": "Art",
+    "nama_belakang": "Yamakawa"
+  },
+  {
+    "id": 646,
+    "nama_depan": "Setona",
+    "peran": "Story & Art",
+    "nama_belakang": "Mizushiro"
+  },
+  {
+    "id": 25878,
+    "nama_depan": "Koume",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujichika"
+  },
+  {
+    "id": 15126,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Tsunako"
+  },
+  {
+    "id": 14996,
+    "nama_depan": "Koushi",
+    "peran": "Story",
+    "nama_belakang": "Tachibana"
+  },
+  {
+    "id": 1365,
+    "nama_depan": "Riichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Ueshiba"
+  },
+  {
+    "id": 2882,
+    "nama_depan": "Tozen",
+    "peran": "Story & Art",
+    "nama_belakang": "Ujiie"
+  },
+  {
+    "id": 651,
+    "nama_depan": "Kaworu",
+    "peran": "Story & Art",
+    "nama_belakang": "Watashiya"
+  },
+  {
+    "id": 17188,
+    "nama_depan": "Akeji",
+    "peran": "Art",
+    "nama_belakang": "Fujimura"
+  },
+  {
+    "id": 569,
+    "nama_depan": "Nanae",
+    "peran": "Story & Art",
+    "nama_belakang": "Chrono"
+  },
+  {
+    "id": 32286,
+    "nama_depan": "Eku",
+    "peran": "Story & Art",
+    "nama_belakang": "Takeshima"
+  },
+  {
+    "id": 1068,
+    "nama_depan": "Kouhei",
+    "peran": "Story",
+    "nama_belakang": "Kadono"
+  },
+  {
+    "id": 41382,
+    "nama_depan": "Rikito",
+    "peran": "Story",
+    "nama_belakang": "Nakamura"
+  },
+  {
+    "id": 39847,
+    "nama_depan": "Yukiko",
+    "peran": "Art",
+    "nama_belakang": "Nozawa"
+  },
+  {
+    "id": 2804,
+    "nama_depan": "Kouji",
+    "peran": "Art",
+    "nama_belakang": "Megumi"
+  },
+  {
+    "id": 21,
+    "nama_depan": "Shin",
+    "peran": "Story",
+    "nama_belakang": "Kibayashi"
+  },
+  {
+    "id": 9010,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Take"
+  },
+  {
+    "id": 516,
+    "nama_depan": "Keiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Suenobu"
+  },
+  {
+    "id": 1047,
+    "nama_depan": "Riyoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Ikeda"
+  },
+  {
+    "id": 1292,
+    "nama_depan": "Kiminori",
+    "peran": "Story & Art",
+    "nama_belakang": "Wakasugi"
+  },
+  {
+    "id": 20086,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Hyeono"
+  },
+  {
+    "id": 20084,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Sini"
+  },
+  {
+    "id": 9873,
+    "nama_depan": "Koyomi",
+    "peran": "Story & Art",
+    "nama_belakang": "Minamori"
+  },
+  {
+    "id": 36323,
+    "nama_depan": "Umi",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakurai"
+  },
+  {
+    "id": 653,
+    "nama_depan": "Sakae",
+    "peran": "Story & Art",
+    "nama_belakang": "Esuno"
+  },
+  {
+    "id": 1461,
+    "nama_depan": "Ryuta",
+    "peran": "Story & Art",
+    "nama_belakang": "Amazume"
+  },
+  {
+    "id": 498,
+    "nama_depan": "Yuna",
+    "peran": "Story & Art",
+    "nama_belakang": "Kagesaki"
+  },
+  {
+    "id": 6588,
+    "nama_depan": "Ren",
+    "peran": "Art",
+    "nama_belakang": "Saizaki"
+  },
+  {
+    "id": 618,
+    "nama_depan": "Kyou",
+    "peran": "Story",
+    "nama_belakang": "Shirodaira"
+  },
+  {
+    "id": 5497,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Kakifly"
+  },
+  {
+    "id": 47783,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Suzuyuki"
+  },
+  {
+    "id": 16708,
+    "nama_depan": "Takumi",
+    "peran": "Story",
+    "nama_belakang": "Yanai"
+  },
+  {
+    "id": 16706,
+    "nama_depan": "Satoru",
+    "peran": "Art",
+    "nama_belakang": "Sao"
+  },
+  {
+    "id": 361,
+    "nama_depan": "Tadashi",
+    "peran": "Story",
+    "nama_belakang": "Kawashima"
+  },
+  {
+    "id": 45140,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Rimukoro"
+  },
+  {
+    "id": 808,
+    "nama_depan": "Ryuu",
+    "peran": "Art",
+    "nama_belakang": "Fujisaki"
+  },
+  {
+    "id": 6014,
+    "nama_depan": "Nico",
+    "peran": "Story & Art",
+    "nama_belakang": "Tanigawa"
+  },
+  {
+    "id": 30392,
+    "nama_depan": "Homura",
+    "peran": "Story",
+    "nama_belakang": "Kawamoto"
+  },
+  {
+    "id": 6497,
+    "nama_depan": "Tooru",
+    "peran": "Art",
+    "nama_belakang": "Naomura"
+  },
+  {
+    "id": 19242,
+    "nama_depan": "Ori",
+    "peran": "Story & Art",
+    "nama_belakang": "Mita"
+  },
+  {
+    "id": 47262,
+    "nama_depan": "Keigo",
+    "peran": "Story & Art",
+    "nama_belakang": "Maki"
+  },
+  {
+    "id": 676,
+    "nama_depan": "Kazurou",
+    "peran": "Story & Art",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 25596,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "774"
+  },
+  {
+    "id": 1094,
+    "nama_depan": "Kazuhiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Mishima"
+  },
+  {
+    "id": 19218,
+    "nama_depan": "Nami",
+    "peran": "Story & Art",
+    "nama_belakang": "Sano"
+  },
+  {
+    "id": 42496,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Hakuri"
+  },
+  {
+    "id": 696,
+    "nama_depan": "Yaya",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakuragi"
+  },
+  {
+    "id": 15904,
+    "nama_depan": "Makoto",
+    "peran": "Art",
+    "nama_belakang": "Fuugetsu"
+  },
+  {
+    "id": 83,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "PEACH‐PIT"
+  },
+  {
+    "id": 8693,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "QuinRose"
+  },
+  {
+    "id": 6762,
+    "nama_depan": "Soumei",
+    "peran": "Art",
+    "nama_belakang": "Hoshino"
+  },
+  {
+    "id": 1090,
+    "nama_depan": "Koji",
+    "peran": "Art",
+    "nama_belakang": "Inada"
+  },
+  {
+    "id": 1089,
+    "nama_depan": "Riku",
+    "peran": "Story",
+    "nama_belakang": "Sanjou"
+  },
+  {
+    "id": 1226,
+    "nama_depan": "Rinko",
+    "peran": "Story & Art",
+    "nama_belakang": "Ueda"
+  },
+  {
+    "id": 734,
+    "nama_depan": "Youka",
+    "peran": "Story & Art",
+    "nama_belakang": "Nitta"
+  },
+  {
+    "id": 2592,
+    "nama_depan": "CHO",
+    "peran": "Story & Art",
+    "nama_belakang": "Jung-man"
+  },
+  {
+    "id": 1781,
+    "nama_depan": "Kako",
+    "peran": "Story & Art",
+    "nama_belakang": "Mitsuki"
+  },
+  {
+    "id": 1339,
+    "nama_depan": "Shouko",
+    "peran": "Story & Art",
+    "nama_belakang": "Konami"
+  },
+  {
+    "id": 1768,
+    "nama_depan": "Masahito",
+    "peran": "Art",
+    "nama_belakang": "Watari"
+  },
+  {
+    "id": 1057,
+    "nama_depan": "Hiroyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Asada"
+  },
+  {
+    "id": 763,
+    "nama_depan": "Mitsuru",
+    "peran": "Story & Art",
+    "nama_belakang": "Hattori"
+  },
+  {
+    "id": 10426,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Yohan"
+  },
+  {
+    "id": 10424,
+    "nama_depan": "Hye-Jin",
+    "peran": "Art",
+    "nama_belakang": "Kim"
+  },
+  {
+    "id": 1030,
+    "nama_depan": "Kengo",
+    "peran": "Story & Art",
+    "nama_belakang": "Hanazawa"
+  },
+  {
+    "id": 35864,
+    "nama_depan": "Jun",
+    "peran": "Story & Art",
+    "nama_belakang": "Mayuzuki"
+  },
+  {
+    "id": 3031,
+    "nama_depan": "Wataru",
+    "peran": "Story & Art",
+    "nama_belakang": "Hibiki"
+  },
+  {
+    "id": 36357,
+    "nama_depan": "Kei",
+    "peran": "Story",
+    "nama_belakang": "Azumi"
+  },
+  {
+    "id": 28984,
+    "nama_depan": "Kotora",
+    "peran": "Art",
+    "nama_belakang": "Kino"
+  },
+  {
+    "id": 963,
+    "nama_depan": "Soo Hyun",
+    "peran": "Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 962,
+    "nama_depan": "Dal Young",
+    "peran": "Story",
+    "nama_belakang": "Im"
+  },
+  {
+    "id": 45734,
+    "nama_depan": "Yong-Je",
+    "peran": "Story & Art",
+    "nama_belakang": "Park"
+  },
+  {
+    "id": 47786,
+    "nama_depan": "Hyun-ah",
+    "peran": "Story & Art",
+    "nama_belakang": "Cho"
+  },
+  {
+    "id": 16242,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Anashin"
+  },
+  {
+    "id": 1053,
+    "nama_depan": "Yoshiki",
+    "peran": "Art",
+    "nama_belakang": "Tonogai"
+  },
+  {
+    "id": 2012,
+    "nama_depan": "Yoshiyuki",
+    "peran": "Art",
+    "nama_belakang": "Miwa"
+  },
+  {
+    "id": 1336,
+    "nama_depan": "Shinogi",
+    "peran": "Story",
+    "nama_belakang": "Kazanami"
+  },
+  {
+    "id": 437,
+    "nama_depan": "Hinako",
+    "peran": "Story & Art",
+    "nama_belakang": "Ashihara"
+  },
+  {
+    "id": 7872,
+    "nama_depan": "Suzuka",
+    "peran": "Art",
+    "nama_belakang": "Oda"
+  },
+  {
+    "id": 4728,
+    "nama_depan": "Manabu",
+    "peran": "Story",
+    "nama_belakang": "Kaminaga"
+  },
+  {
+    "id": 17642,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Afro"
+  },
+  {
+    "id": 3659,
+    "nama_depan": "Hiro",
+    "peran": "Art",
+    "nama_belakang": "Kiyohara"
+  },
+  {
+    "id": 900,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Otsuichi"
+  },
+  {
+    "id": 44,
+    "nama_depan": "Takeshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Konomi"
+  },
+  {
+    "id": 39764,
+    "nama_depan": "Kanata",
+    "peran": "Story",
+    "nama_belakang": "Yanagino"
+  },
+  {
+    "id": 35449,
+    "nama_depan": "Mutsumi",
+    "peran": "Art",
+    "nama_belakang": "Okuhashi"
+  },
+  {
+    "id": 507,
+    "nama_depan": "Tetsuya",
+    "peran": "Story",
+    "nama_belakang": "Nomura"
+  },
+  {
+    "id": 506,
+    "nama_depan": "Shiro",
+    "peran": "Art",
+    "nama_belakang": "Amano"
+  },
+  {
+    "id": 45022,
+    "nama_depan": "Koharu",
+    "peran": "Story & Art",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 1882,
+    "nama_depan": "Araki",
+    "peran": "Story",
+    "nama_belakang": "Joh"
+  },
+  {
+    "id": 1392,
+    "nama_depan": "Kenji",
+    "peran": "Art",
+    "nama_belakang": "Nagatomo"
+  },
+  {
+    "id": 173,
+    "nama_depan": "Moe",
+    "peran": "Story & Art",
+    "nama_belakang": "Yukimaru"
+  },
+  {
+    "id": 51275,
+    "nama_depan": "Lina",
+    "peran": "Story & Art",
+    "nama_belakang": "Im"
+  },
+  {
+    "id": 3760,
+    "nama_depan": "Rie",
+    "peran": "Story & Art",
+    "nama_belakang": "Oouta"
+  },
+  {
+    "id": 901,
+    "nama_depan": "Yuri",
+    "peran": "Art",
+    "nama_belakang": "Kimura"
+  },
+  {
+    "id": 6578,
+    "nama_depan": "Tomoki",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsumoto"
+  },
+  {
+    "id": 41670,
+    "nama_depan": "Satoru",
+    "peran": "Story",
+    "nama_belakang": "Yamaguchi"
+  },
+  {
+    "id": 39834,
+    "nama_depan": "Nami",
+    "peran": "Art",
+    "nama_belakang": "Hidaka"
+  },
+  {
+    "id": 411,
+    "nama_depan": "Shoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Hidaka"
+  },
+  {
+    "id": 16608,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "GoRA"
+  },
+  {
+    "id": 16514,
+    "nama_depan": "Yui",
+    "peran": "Art",
+    "nama_belakang": "Kuroe"
+  },
+  {
+    "id": 12936,
+    "nama_depan": "Neko",
+    "peran": "Story & Art",
+    "nama_belakang": "Kanda"
+  },
+  {
+    "id": 1407,
+    "nama_depan": "Mei",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakuraga"
+  },
+  {
+    "id": 5345,
+    "nama_depan": "Yoshinobu",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamada"
+  },
+  {
+    "id": 6134,
+    "nama_depan": "Yousuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakamaru"
+  },
+  {
+    "id": 6369,
+    "nama_depan": "Ririko",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsujita"
+  },
+  {
+    "id": 14664,
+    "nama_depan": "Takemaru",
+    "peran": "Story & Art",
+    "nama_belakang": "Inui"
+  },
+  {
+    "id": 5582,
+    "nama_depan": "Taishi",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsutsui"
+  },
+  {
+    "id": 690,
+    "nama_depan": "Mitsuba",
+    "peran": "Story & Art",
+    "nama_belakang": "Takanashi"
+  },
+  {
+    "id": 30834,
+    "nama_depan": "Shin",
+    "peran": "Story",
+    "nama_belakang": "Towada"
+  },
+  {
+    "id": 21960,
+    "nama_depan": "Daruma",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsuura"
+  },
+  {
+    "id": 1379,
+    "nama_depan": "Iqura",
+    "peran": "Art",
+    "nama_belakang": "Sugimoto"
+  },
+  {
+    "id": 1067,
+    "nama_depan": "Kazuki",
+    "peran": "Story",
+    "nama_belakang": "Sakuraba"
+  },
+  {
+    "id": 3858,
+    "nama_depan": "Eiri",
+    "peran": "Story & Art",
+    "nama_belakang": "Kaji"
+  },
+  {
+    "id": 17396,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Shiromiso"
+  },
+  {
+    "id": 16288,
+    "nama_depan": "Natsuki",
+    "peran": "Story",
+    "nama_belakang": "Mamiya"
+  },
+  {
+    "id": 11338,
+    "nama_depan": "Morohe",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshida"
+  },
+  {
+    "id": 35386,
+    "nama_depan": "Nagisa",
+    "peran": "Story & Art",
+    "nama_belakang": "Furuya"
+  },
+  {
+    "id": 15682,
+    "nama_depan": "Shoutarou",
+    "peran": "Story & Art",
+    "nama_belakang": "Tokunou"
+  },
+  {
+    "id": 10360,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Enzou"
+  },
+  {
+    "id": 817,
+    "nama_depan": "Sakura",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsukuba"
+  },
+  {
+    "id": 63,
+    "nama_depan": "Etorouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiono"
+  },
+  {
+    "id": 22618,
+    "nama_depan": "Eiri",
+    "peran": "Art",
+    "nama_belakang": "Shirai"
+  },
+  {
+    "id": 3914,
+    "nama_depan": "Ao",
+    "peran": "Story",
+    "nama_belakang": "Jyumonji"
+  },
+  {
+    "id": 2174,
+    "nama_depan": "Hikaru",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakamura"
+  },
+  {
+    "id": 6832,
+    "nama_depan": "Gengorou",
+    "peran": "Story & Art",
+    "nama_belakang": "Tagame"
+  },
+  {
+    "id": 756,
+    "nama_depan": "Retsu",
+    "peran": "Art",
+    "nama_belakang": "Tateo"
+  },
+  {
+    "id": 31492,
+    "nama_depan": "Noboru",
+    "peran": "Art",
+    "nama_belakang": "Kannatsuki"
+  },
+  {
+    "id": 832,
+    "nama_depan": "Akane",
+    "peran": "Story & Art",
+    "nama_belakang": "Ogura"
+  },
+  {
+    "id": 11336,
+    "nama_depan": "Yoshikadu",
+    "peran": "Story & Art",
+    "nama_belakang": "Hamada"
+  },
+  {
+    "id": 33078,
+    "nama_depan": "Tanaka",
+    "peran": "Story & Art",
+    "nama_belakang": "Ogeretsu"
+  },
+  {
+    "id": 326,
+    "nama_depan": "Kanan",
+    "peran": "Story & Art",
+    "nama_belakang": "Minami"
+  },
+  {
+    "id": 447,
+    "nama_depan": "Ema",
+    "peran": "Story & Art",
+    "nama_belakang": "Tooyama"
+  },
+  {
+    "id": 472,
+    "nama_depan": "Yoshiyuki",
+    "peran": "Story",
+    "nama_belakang": "Tomino"
+  },
+  {
+    "id": 355,
+    "nama_depan": "Yoshikazu",
+    "peran": "Story & Art",
+    "nama_belakang": "Yasuhiko"
+  },
+  {
+    "id": 10017,
+    "nama_depan": "Yukito",
+    "peran": "Story",
+    "nama_belakang": "Ayatsuji"
+  },
+  {
+    "id": 35737,
+    "nama_depan": "Hikaru",
+    "peran": "Art",
+    "nama_belakang": "Araki"
+  },
+  {
+    "id": 658,
+    "nama_depan": "Daewoo",
+    "peran": "Story",
+    "nama_belakang": "Kim"
+  },
+  {
+    "id": 11658,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "NAOE"
+  },
+  {
+    "id": 319,
+    "nama_depan": "Ryoco",
+    "peran": "Story & Art",
+    "nama_belakang": "Fukuyama"
+  },
+  {
+    "id": 11270,
+    "nama_depan": "Mamare",
+    "peran": "Story",
+    "nama_belakang": "Touno"
+  },
+  {
+    "id": 8604,
+    "nama_depan": "Akira",
+    "peran": "Art",
+    "nama_belakang": "Ishida"
+  },
+  {
+    "id": 20370,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Neet"
+  },
+  {
+    "id": 11104,
+    "nama_depan": "Hajime",
+    "peran": "Story",
+    "nama_belakang": "Asano"
+  },
+  {
+    "id": 15200,
+    "nama_depan": "Naho",
+    "peran": "Story",
+    "nama_belakang": "Watarumi"
+  },
+  {
+    "id": 14510,
+    "nama_depan": "Manami",
+    "peran": "Art",
+    "nama_belakang": "Kisaragi"
+  },
+  {
+    "id": 353,
+    "nama_depan": "Touko",
+    "peran": "Story & Art",
+    "nama_belakang": "Kawai"
+  },
+  {
+    "id": 600,
+    "nama_depan": "Akimine",
+    "peran": "Story & Art",
+    "nama_belakang": "Kamijyo"
+  },
+  {
+    "id": 738,
+    "nama_depan": "Shin",
+    "peran": "Story & Art",
+    "nama_belakang": "Takahashi"
+  },
+  {
+    "id": 5373,
+    "nama_depan": "Tarou",
+    "peran": "Art",
+    "nama_belakang": "Nogizaka"
+  },
+  {
+    "id": 5372,
+    "nama_depan": "Akira",
+    "peran": "Story",
+    "nama_belakang": "Nagai"
+  },
+  {
+    "id": 14708,
+    "nama_depan": "Kenji",
+    "peran": "Story",
+    "nama_belakang": "Saitou"
+  },
+  {
+    "id": 535,
+    "nama_depan": "Akinari",
+    "peran": "Art",
+    "nama_belakang": "Nao"
+  },
+  {
+    "id": 39802,
+    "nama_depan": "Kotoba",
+    "peran": "Story & Art",
+    "nama_belakang": "Inoya"
+  },
+  {
+    "id": 41419,
+    "nama_depan": "Motomi",
+    "peran": "Story & Art",
+    "nama_belakang": "Minamoto"
+  },
+  {
+    "id": 505,
+    "nama_depan": "Yuji",
+    "peran": "Story & Art",
+    "nama_belakang": "Iwahara"
+  },
+  {
+    "id": 698,
+    "nama_depan": "Masakazu",
+    "peran": "Story & Art",
+    "nama_belakang": "Katsura"
+  },
+  {
+    "id": 39980,
+    "nama_depan": "Meguru",
+    "peran": "Story & Art",
+    "nama_belakang": "Hinohara"
+  },
+  {
+    "id": 34912,
+    "nama_depan": "Miya",
+    "peran": "Story",
+    "nama_belakang": "Kazuki"
+  },
+  {
+    "id": 8197,
+    "nama_depan": "You",
+    "peran": "Art",
+    "nama_belakang": "Shiina"
+  },
+  {
+    "id": 9850,
+    "nama_depan": "Wataru",
+    "peran": "Story & Art",
+    "nama_belakang": "Watanabe"
+  },
+  {
+    "id": 5391,
+    "nama_depan": "Hiroshi",
+    "peran": "Story",
+    "nama_belakang": "Sakurazaka"
+  },
+  {
+    "id": 126,
+    "nama_depan": "Yoshitoshi",
+    "peran": "Art",
+    "nama_belakang": "Abe"
+  },
+  {
+    "id": 3469,
+    "nama_depan": "Nozomu",
+    "peran": "Story & Art",
+    "nama_belakang": "Tamaki"
+  },
+  {
+    "id": 3552,
+    "nama_depan": "Mitsutoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Shimabukuro"
+  },
+  {
+    "id": 4833,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Mika"
+  },
+  {
+    "id": 4832,
+    "nama_depan": "Ibuki",
+    "peran": "Art",
+    "nama_belakang": "Haneda"
+  },
+  {
+    "id": 994,
+    "nama_depan": "Hidenori",
+    "peran": "Art",
+    "nama_belakang": "Hara"
+  },
+  {
+    "id": 541,
+    "nama_depan": "Hitori",
+    "peran": "Story",
+    "nama_belakang": "Nakano"
+  },
+  {
+    "id": 5130,
+    "nama_depan": "Toshio",
+    "peran": "Story & Art",
+    "nama_belakang": "Sako"
+  },
+  {
+    "id": 13938,
+    "nama_depan": "Honobu",
+    "peran": "Story",
+    "nama_belakang": "Yonezawa"
+  },
+  {
+    "id": 48456,
+    "nama_depan": "Miyako",
+    "peran": "Story & Art",
+    "nama_belakang": "Miyahara"
+  },
+  {
+    "id": 27442,
+    "nama_depan": "Kiri",
+    "peran": "Story & Art",
+    "nama_belakang": "Wazawa"
+  },
+  {
+    "id": 3768,
+    "nama_depan": "Motoro",
+    "peran": "Story & Art",
+    "nama_belakang": "Mase"
+  },
+  {
+    "id": 26732,
+    "nama_depan": "Kagiji",
+    "peran": "Story & Art",
+    "nama_belakang": "Kumanomata"
+  },
+  {
+    "id": 758,
+    "nama_depan": "Tsukasa",
+    "peran": "Story & Art",
+    "nama_belakang": "Hojo"
+  },
+  {
+    "id": 48574,
+    "nama_depan": "Hajime",
+    "peran": "Story & Art",
+    "nama_belakang": "Koumoto"
+  },
+  {
+    "id": 4688,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Namori"
+  },
+  {
+    "id": 47883,
+    "nama_depan": "Ji-young",
+    "peran": "Story & Art",
+    "nama_belakang": "Kang"
+  },
+  {
+    "id": 38888,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Haga"
+  },
+  {
+    "id": 39948,
+    "nama_depan": "Ryouji",
+    "peran": "Story & Art",
+    "nama_belakang": "Hirano"
+  },
+  {
+    "id": 8932,
+    "nama_depan": "Tohru",
+    "peran": "Story & Art",
+    "nama_belakang": "Tagura"
+  },
+  {
+    "id": 1352,
+    "nama_depan": "Miyoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Toumori"
+  },
+  {
+    "id": 4419,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "ichtys"
+  },
+  {
+    "id": 10268,
+    "nama_depan": "Naoki",
+    "peran": "Story & Art",
+    "nama_belakang": "Iwamoto"
+  },
+  {
+    "id": 35089,
+    "nama_depan": "Touko",
+    "peran": "Story",
+    "nama_belakang": "Fujitani"
+  },
+  {
+    "id": 47904,
+    "nama_depan": "Hye",
+    "peran": "Story & Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 8561,
+    "nama_depan": "Daichi",
+    "peran": "Art",
+    "nama_belakang": "Matsuse"
+  },
+  {
+    "id": 4679,
+    "nama_depan": "Kotarou",
+    "peran": "Art",
+    "nama_belakang": "Mori"
+  },
+  {
+    "id": 1463,
+    "nama_depan": "Kazuki",
+    "peran": "Story",
+    "nama_belakang": "Nakashima"
+  },
+  {
+    "id": 6331,
+    "nama_depan": "Takeshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Azuma"
+  },
+  {
+    "id": 43877,
+    "nama_depan": "Miya",
+    "peran": "Story & Art",
+    "nama_belakang": "Tokokura"
+  },
+  {
+    "id": 7790,
+    "nama_depan": "Norio",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakurai"
+  },
+  {
+    "id": 7688,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "FLIPFLOPs"
+  },
+  {
+    "id": 35975,
+    "nama_depan": "Ryou",
+    "peran": "Story",
+    "nama_belakang": "Shirakome"
+  },
+  {
+    "id": 9042,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "TakayaKi"
+  },
+  {
+    "id": 17995,
+    "nama_depan": "Iro",
+    "peran": "Story & Art",
+    "nama_belakang": "Yugi"
+  },
+  {
+    "id": 14860,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "029"
+  },
+  {
+    "id": 683,
+    "nama_depan": "Kanoko",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakurakouji"
+  },
+  {
+    "id": 20372,
+    "nama_depan": "Fumiaki",
+    "peran": "Story",
+    "nama_belakang": "Maruto"
+  },
+  {
+    "id": 19644,
+    "nama_depan": "Sabu",
+    "peran": "Art",
+    "nama_belakang": "Musha"
+  },
+  {
+    "id": 655,
+    "nama_depan": "Kagami",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshimizu"
+  },
+  {
+    "id": 953,
+    "nama_depan": "Hajime",
+    "peran": "Story & Art",
+    "nama_belakang": "Segawa"
+  },
+  {
+    "id": 457,
+    "nama_depan": "Eiji",
+    "peran": "Story & Art",
+    "nama_belakang": "Nonaka"
+  },
+  {
+    "id": 1965,
+    "nama_depan": "Yukiko",
+    "peran": "Art",
+    "nama_belakang": "Sumiyoshi"
+  },
+  {
+    "id": 1020,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Key"
+  },
+  {
+    "id": 2580,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujitsuka"
+  },
+  {
+    "id": 937,
+    "nama_depan": "Mayu",
+    "peran": "Story & Art",
+    "nama_belakang": "Sakai"
+  },
+  {
+    "id": 616,
+    "nama_depan": "Aya",
+    "peran": "Story & Art",
+    "nama_belakang": "Kanno"
+  },
+  {
+    "id": 34,
+    "nama_depan": "Natsumi",
+    "peran": "Story & Art",
+    "nama_belakang": "Mukai"
+  },
+  {
+    "id": 26258,
+    "nama_depan": "Yui",
+    "peran": "Story",
+    "nama_belakang": "Tokiumi"
+  },
+  {
+    "id": 481,
+    "nama_depan": "Shizuru",
+    "peran": "Story & Art",
+    "nama_belakang": "Seino"
+  },
+  {
+    "id": 50667,
+    "nama_depan": "Riko",
+    "peran": "Story & Art",
+    "nama_belakang": "Amaebi"
+  },
+  {
+    "id": 45929,
+    "nama_depan": "Jun",
+    "peran": "Art",
+    "nama_belakang": "Shiosato"
+  },
+  {
+    "id": 37909,
+    "nama_depan": "Yomu",
+    "peran": "Story",
+    "nama_belakang": "Mishima"
+  },
+  {
+    "id": 79,
+    "nama_depan": "Yun",
+    "peran": "Story & Art",
+    "nama_belakang": "Kouga"
+  },
+  {
+    "id": 23164,
+    "nama_depan": "Kata",
+    "peran": "Story & Art",
+    "nama_belakang": "Konayama"
+  },
+  {
+    "id": 14460,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Tsujitomo"
+  },
+  {
+    "id": 6509,
+    "nama_depan": "Masaya",
+    "peran": "Story",
+    "nama_belakang": "Tsunamoto"
+  },
+  {
+    "id": 1025,
+    "nama_depan": "Kanata",
+    "peran": "Story & Art",
+    "nama_belakang": "Konami"
+  },
+  {
+    "id": 6028,
+    "nama_depan": "Touko",
+    "peran": "Story & Art",
+    "nama_belakang": "Minami"
+  },
+  {
+    "id": 979,
+    "nama_depan": "Shouji",
+    "peran": "Art",
+    "nama_belakang": "Satou"
+  },
+  {
+    "id": 739,
+    "nama_depan": "Daisuke",
+    "peran": "Story",
+    "nama_belakang": "Satou"
+  },
+  {
+    "id": 48,
+    "nama_depan": "Kazuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Takahashi"
+  },
+  {
+    "id": 16512,
+    "nama_depan": "Kiyomune",
+    "peran": "Story",
+    "nama_belakang": "Miwa"
+  },
+  {
+    "id": 9246,
+    "nama_depan": "Kyuuta",
+    "peran": "Art",
+    "nama_belakang": "Sakai"
+  },
+  {
+    "id": 15120,
+    "nama_depan": "Tadahiro",
+    "peran": "Art",
+    "nama_belakang": "Miura"
+  },
+  {
+    "id": 15118,
+    "nama_depan": "Tsugirou",
+    "peran": "Story",
+    "nama_belakang": "Sakamoto"
+  },
+  {
+    "id": 631,
+    "nama_depan": "Kiyo",
+    "peran": "Art",
+    "nama_belakang": "Kyuujou"
+  },
+  {
+    "id": 629,
+    "nama_depan": "Yoshida",
+    "peran": "Story",
+    "nama_belakang": "Sunao"
+  },
+  {
+    "id": 3290,
+    "nama_depan": "Yunosuke",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshinaga"
+  },
+  {
+    "id": 48509,
+    "nama_depan": "Waka",
+    "peran": "Story & Art",
+    "nama_belakang": "Hirako"
+  },
+  {
+    "id": 1831,
+    "nama_depan": "Hiroshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Hiroyama"
+  },
+  {
+    "id": 15718,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Currygom"
+  },
+  {
+    "id": 46478,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Shiromanta"
+  },
+  {
+    "id": 52,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Emura"
+  },
+  {
+    "id": 1888,
+    "nama_depan": "Shou",
+    "peran": "Story & Art",
+    "nama_belakang": "Aimoto"
+  },
+  {
+    "id": 32038,
+    "nama_depan": "Toshimitsu",
+    "peran": "Story & Art",
+    "nama_belakang": "Matsubara"
+  },
+  {
+    "id": 16544,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Kunieda"
+  },
+  {
+    "id": 16100,
+    "nama_depan": "Jong-bum",
+    "peran": "Story & Art",
+    "nama_belakang": "Lee"
+  },
+  {
+    "id": 1088,
+    "nama_depan": "Gaku",
+    "peran": "Art",
+    "nama_belakang": "Tsugano"
+  },
+  {
+    "id": 10189,
+    "nama_depan": "Aoi",
+    "peran": "Story & Art",
+    "nama_belakang": "Makino"
+  },
+  {
+    "id": 947,
+    "nama_depan": "Ayane",
+    "peran": "Story & Art",
+    "nama_belakang": "Ukyou"
+  },
+  {
+    "id": 3503,
+    "nama_depan": "Yu-Rang",
+    "peran": "Story & Art",
+    "nama_belakang": "Han"
+  },
+  {
+    "id": 17356,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Hun"
+  },
+  {
+    "id": 20344,
+    "nama_depan": "Yuu",
+    "peran": "Art",
+    "nama_belakang": "Amano"
+  },
+  {
+    "id": 17942,
+    "nama_depan": "Tarou",
+    "peran": "Story",
+    "nama_belakang": "Tatsunoko"
+  },
+  {
+    "id": 101,
+    "nama_depan": "Nobuyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Anzai"
+  },
+  {
+    "id": 9349,
+    "nama_depan": "Yuuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kodama"
+  },
+  {
+    "id": 788,
+    "nama_depan": "Hotaru",
+    "peran": "Art",
+    "nama_belakang": "Odagiri"
+  },
+  {
+    "id": 787,
+    "nama_depan": "Satoru",
+    "peran": "Story",
+    "nama_belakang": "Kannagi"
+  },
+  {
+    "id": 1777,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Kyuugou"
+  },
+  {
+    "id": 38058,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Mosco"
+  },
+  {
+    "id": 39844,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Keikenchi"
+  },
+  {
+    "id": 2715,
+    "nama_depan": "Satoshi",
+    "peran": "Story & Art",
+    "nama_belakang": "Kon"
+  },
+  {
+    "id": 11230,
+    "nama_depan": "Muru",
+    "peran": "Story & Art",
+    "nama_belakang": "Imigi"
+  },
+  {
+    "id": 18311,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Saburouta"
+  },
+  {
+    "id": 769,
+    "nama_depan": "Takako",
+    "peran": "Story & Art",
+    "nama_belakang": "Shigematsu"
+  },
+  {
+    "id": 23054,
+    "nama_depan": "Riku",
+    "peran": "Story",
+    "nama_belakang": "Misora"
+  },
+  {
+    "id": 22994,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Won"
+  },
+  {
+    "id": 9039,
+    "nama_depan": "Jung-Hyun",
+    "peran": "Art",
+    "nama_belakang": "Kim"
+  },
+  {
+    "id": 2681,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Petosu"
+  },
+  {
+    "id": 39681,
+    "nama_depan": "Naoki",
+    "peran": "Story",
+    "nama_belakang": "Yamakawa"
+  },
+  {
+    "id": 712,
+    "nama_depan": "Masashi",
+    "peran": "Art",
+    "nama_belakang": "Asaki"
+  },
+  {
+    "id": 1931,
+    "nama_depan": "Yuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Kure"
+  },
+  {
+    "id": 6573,
+    "nama_depan": "Yufuko",
+    "peran": "Story & Art",
+    "nama_belakang": "Suzuki"
+  },
+  {
+    "id": 49315,
+    "nama_depan": "Yuuto",
+    "peran": "Story & Art",
+    "nama_belakang": "Sano"
+  },
+  {
+    "id": 46145,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "VAN.J"
+  },
+  {
+    "id": 46144,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Cosmos"
+  },
+  {
+    "id": 1009,
+    "nama_depan": "Shiho",
+    "peran": "Story & Art",
+    "nama_belakang": "Sugiura"
+  },
+  {
+    "id": 4878,
+    "nama_depan": "Moare",
+    "peran": "Story & Art",
+    "nama_belakang": "Ohta"
+  },
+  {
+    "id": 45996,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "eon"
+  },
+  {
+    "id": 43694,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Mochi Au Lait"
+  },
+  {
+    "id": 23684,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "majoccoid"
+  },
+  {
+    "id": 1084,
+    "nama_depan": "Katsumi",
+    "peran": "Art",
+    "nama_belakang": "Enami"
+  },
+  {
+    "id": 25154,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Suzuka"
+  },
+  {
+    "id": 109,
+    "nama_depan": "Mitsukazu",
+    "peran": "Story & Art",
+    "nama_belakang": "Mihara"
+  },
+  {
+    "id": 32226,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Kawada"
+  },
+  {
+    "id": 16972,
+    "nama_depan": "Hideyuki",
+    "peran": "Story",
+    "nama_belakang": "Furuhashi"
+  },
+  {
+    "id": 1032,
+    "nama_depan": "Court",
+    "peran": "Art",
+    "nama_belakang": "Betten"
+  },
+  {
+    "id": 1386,
+    "nama_depan": "Nakaba",
+    "peran": "Story & Art",
+    "nama_belakang": "Suzuki"
+  },
+  {
+    "id": 26730,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Masayoshi"
+  },
+  {
+    "id": 7255,
+    "nama_depan": "Keiichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Koike"
+  },
+  {
+    "id": 47579,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Hijiki"
+  },
+  {
+    "id": 6881,
+    "nama_depan": "Akiyo",
+    "peran": "Art",
+    "nama_belakang": "Kurosawa"
+  },
+  {
+    "id": 11289,
+    "nama_depan": "Takuma",
+    "peran": "Story & Art",
+    "nama_belakang": "Morishige"
+  },
+  {
+    "id": 436,
+    "nama_depan": "Sanami",
+    "peran": "Story & Art",
+    "nama_belakang": "Matoh"
+  },
+  {
+    "id": 1163,
+    "nama_depan": "Suzue",
+    "peran": "Story & Art",
+    "nama_belakang": "Miuchi"
+  },
+  {
+    "id": 47585,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Haribo"
+  },
+  {
+    "id": 16378,
+    "nama_depan": "Keiko",
+    "peran": "Story & Art",
+    "nama_belakang": "Iwashita"
+  },
+  {
+    "id": 509,
+    "nama_depan": "Kouhaku",
+    "peran": "Art",
+    "nama_belakang": "Kuroboshi"
+  },
+  {
+    "id": 508,
+    "nama_depan": "Keiichi",
+    "peran": "Story",
+    "nama_belakang": "Sigsawa"
+  },
+  {
+    "id": 47858,
+    "nama_depan": "Renji",
+    "peran": "Art",
+    "nama_belakang": "Morita"
+  },
+  {
+    "id": 47857,
+    "nama_depan": "Souhachi",
+    "peran": "Story",
+    "nama_belakang": "Hagimoto"
+  },
+  {
+    "id": 41298,
+    "nama_depan": "Asuka",
+    "peran": "Story & Art",
+    "nama_belakang": "Konishi"
+  },
+  {
+    "id": 221,
+    "nama_depan": "Mi-Kyung",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoon"
+  },
+  {
+    "id": 38975,
+    "nama_depan": "Suki",
+    "peran": "Art",
+    "nama_belakang": "Umemiya"
+  },
+  {
+    "id": 37796,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Reia"
+  },
+  {
+    "id": 2795,
+    "nama_depan": "Akira",
+    "peran": "Story & Art",
+    "nama_belakang": "Hiramoto"
+  },
+  {
+    "id": 44325,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Team Gaji"
+  },
+  {
+    "id": 29566,
+    "nama_depan": "Makoto",
+    "peran": "Art",
+    "nama_belakang": "Mizuta"
+  },
+  {
+    "id": 29564,
+    "nama_depan": "Tatsuya",
+    "peran": "Story",
+    "nama_belakang": "Iguchi"
+  },
+  {
+    "id": 9455,
+    "nama_depan": "Chihiro",
+    "peran": "Story & Art",
+    "nama_belakang": "Ishizuka"
+  },
+  {
+    "id": 1825,
+    "nama_depan": "Yukako",
+    "peran": "Story",
+    "nama_belakang": "Kabei"
+  },
+  {
+    "id": 8288,
+    "nama_depan": "Youhei",
+    "peran": "Art",
+    "nama_belakang": "Takemura"
+  },
+  {
+    "id": 2810,
+    "nama_depan": "Shiuri",
+    "peran": "Art",
+    "nama_belakang": "Iwasawa"
+  },
+  {
+    "id": 2809,
+    "nama_depan": "Iku",
+    "peran": "Story",
+    "nama_belakang": "Sakaguchi"
+  },
+  {
+    "id": 24014,
+    "nama_depan": "Pochi.",
+    "peran": "Story & Art",
+    "nama_belakang": "Iida"
+  },
+  {
+    "id": 949,
+    "nama_depan": "So-Hee",
+    "peran": "Story & Art",
+    "nama_belakang": "Park"
+  },
+  {
+    "id": 677,
+    "nama_depan": "Mika",
+    "peran": "Story & Art",
+    "nama_belakang": "Sadahiro"
+  },
+  {
+    "id": 338,
+    "nama_depan": "Tomu",
+    "peran": "Story & Art",
+    "nama_belakang": "Ohmi"
+  },
+  {
+    "id": 5841,
+    "nama_depan": "Yoshitaka",
+    "peran": "Story & Art",
+    "nama_belakang": "Ushiki"
+  },
+  {
+    "id": 1395,
+    "nama_depan": "Kiyo",
+    "peran": "Story & Art",
+    "nama_belakang": "Fujiwara"
+  },
+  {
+    "id": 9241,
+    "nama_depan": "Asato",
+    "peran": "Story & Art",
+    "nama_belakang": "Mizu"
+  },
+  {
+    "id": 54236,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Taizan 5"
+  },
+  {
+    "id": 2084,
+    "nama_depan": "Junya",
+    "peran": "Story & Art",
+    "nama_belakang": "Inoue"
+  },
+  {
+    "id": 41586,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Sachimo"
+  },
+  {
+    "id": 16622,
+    "nama_depan": "Task",
+    "peran": "Art",
+    "nama_belakang": "Ohna"
+  },
+  {
+    "id": 36029,
+    "nama_depan": "Chashiba",
+    "peran": "Art",
+    "nama_belakang": "Katase"
+  },
+  {
+    "id": 903,
+    "nama_depan": "Noriyuki",
+    "peran": "Story & Art",
+    "nama_belakang": "Yamahana"
+  },
+  {
+    "id": 2123,
+    "nama_depan": "Kozue",
+    "peran": "Story & Art",
+    "nama_belakang": "Chiba"
+  },
+  {
+    "id": 4657,
+    "nama_depan": "Haru",
+    "peran": "Story & Art",
+    "nama_belakang": "Akiyama"
+  },
+  {
+    "id": 3443,
+    "nama_depan": "Masanori",
+    "peran": "Story & Art",
+    "nama_belakang": "Katakura"
+  },
+  {
+    "id": 28036,
+    "nama_depan": "Waka",
+    "peran": "Story & Art",
+    "nama_belakang": "Kakitsubata"
+  },
+  {
+    "id": 13610,
+    "nama_depan": "Yuuichi",
+    "peran": "Story & Art",
+    "nama_belakang": "Katou"
+  },
+  {
+    "id": 40280,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Touzai"
+  },
+  {
+    "id": 8494,
+    "nama_depan": "Ayuko",
+    "peran": "Story & Art",
+    "nama_belakang": "Hatta"
+  },
+  {
+    "id": 2101,
+    "nama_depan": "Ken",
+    "peran": "Story & Art",
+    "nama_belakang": "Saitou"
+  },
+  {
+    "id": 50165,
+    "nama_depan": "Ryou",
+    "peran": "Art",
+    "nama_belakang": "Izawa"
+  },
+  {
+    "id": 43297,
+    "nama_depan": "Kei",
+    "peran": "Story",
+    "nama_belakang": "Koga"
+  },
+  {
+    "id": 20588,
+    "nama_depan": "Midori",
+    "peran": "Art",
+    "nama_belakang": "Motohashi"
+  },
+  {
+    "id": 1114,
+    "nama_depan": "Shirou",
+    "peran": "Art",
+    "nama_belakang": "Tsunashima"
+  },
+  {
+    "id": 921,
+    "nama_depan": "Hisamitsu",
+    "peran": "Story",
+    "nama_belakang": "Ueo"
+  },
+  {
+    "id": 1408,
+    "nama_depan": "Modoru",
+    "peran": "Story & Art",
+    "nama_belakang": "Motoni"
+  },
+  {
+    "id": 2043,
+    "nama_depan": "Junko",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakano"
+  },
+  {
+    "id": 7161,
+    "nama_depan": "Kazuya",
+    "peran": "Story & Art",
+    "nama_belakang": "Machida"
+  },
+  {
+    "id": 1983,
+    "nama_depan": "Yu-Ko",
+    "peran": "Story & Art",
+    "nama_belakang": "Osada"
+  },
+  {
+    "id": 50761,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "ORKA"
+  },
+  {
+    "id": 50760,
+    "nama_depan": "",
+    "peran": "Story",
+    "nama_belakang": "Nyangi-wa Hyangsinnyo"
+  },
+  {
+    "id": 80,
+    "nama_depan": "Wataru",
+    "peran": "Story & Art",
+    "nama_belakang": "Yoshizumi"
+  },
+  {
+    "id": 694,
+    "nama_depan": "Saki",
+    "peran": "Story & Art",
+    "nama_belakang": "Hiwatari"
+  },
+  {
+    "id": 4439,
+    "nama_depan": "JYU",
+    "peran": "Story & Art",
+    "nama_belakang": "Deo"
+  },
+  {
+    "id": 3131,
+    "nama_depan": "",
+    "peran": "Art",
+    "nama_belakang": "Juder"
+  },
+  {
+    "id": 5680,
+    "nama_depan": "Fuyu",
+    "peran": "Story",
+    "nama_belakang": "Tsuyama"
+  },
+  {
+    "id": 1962,
+    "nama_depan": "Rei",
+    "peran": "Art",
+    "nama_belakang": "Izawa"
+  },
+  {
+    "id": 876,
+    "nama_depan": "Eiji",
+    "peran": "Story",
+    "nama_belakang": "Otsuka"
+  },
+  {
+    "id": 715,
+    "nama_depan": "Shouu",
+    "peran": "Art",
+    "nama_belakang": "Tajima"
+  },
+  {
+    "id": 896,
+    "nama_depan": "Tetsuya",
+    "peran": "Story & Art",
+    "nama_belakang": "Tsutsui"
+  },
+  {
+    "id": 1725,
+    "nama_depan": "Keiji",
+    "peran": "Story & Art",
+    "nama_belakang": "Nakazawa"
+  },
+  {
+    "id": 45598,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Gojira-kun"
+  },
+  {
+    "id": 15748,
+    "nama_depan": "Ai",
+    "peran": "Story & Art",
+    "nama_belakang": "Okaue"
+  },
+  {
+    "id": 47473,
+    "nama_depan": "",
+    "peran": "Story & Art",
+    "nama_belakang": "Koogi"
+  },
+  {
+    "id": 20476,
+    "nama_depan": "Chuuya",
+    "peran": "Art",
+    "nama_belakang": "Kogino"
+  },
+  {
+    "id": 9392,
+    "nama_depan": "Sadaji",
+    "peran": "Story & Art",
+    "nama_belakang": "Koike"
+  }
+]

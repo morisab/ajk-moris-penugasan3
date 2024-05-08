@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "nama": "Young Animal"
+  },
+  {
+    "id": 2,
+    "nama": "Shounen Jump (Weekly)"
+  },
+  {
+    "id": 3,
+    "nama": "Shounen Gangan"
+  },
+  {
+    "id": 4,
+    "nama": "Ultra Jump"
+  },
+  {
+    "id": 5,
+    "nama": "Big Comic Spirits"
+  },
+  {
+    "id": 6,
+    "nama": "Morning"
+  },
+  {
+    "id": 7,
+    "nama": "Afternoon"
+  },
+  {
+    "id": 8,
+    "nama": "Shounen Magazine (Weekly)"
+  },
+  {
+    "id": 9,
+    "nama": "Young Jump"
+  },
+  {
+    "id": 10,
+    "nama": "Shounen Jump+"
+  },
+  {
+    "id": 11,
+    "nama": "Big Comic Original"
+  },
+  {
+    "id": 12,
+    "nama": "Tonari no Young Jump"
+  },
+  {
+    "id": 13,
+    "nama": "Kakao"
+  },
+  {
+    "id": 14,
+    "nama": "good! Afternoon"
+  },
+  {
+    "id": 15,
+    "nama": "Bessatsu Shounen Magazine"
+  },
+  {
+    "id": 16,
+    "nama": "comico"
+  },
+  {
+    "id": 17,
+    "nama": "Dengeki Daioh"
+  },
+  {
+    "id": 18,
+    "nama": "Hana to Yume"
+  },
+  {
+    "id": 19,
+    "nama": "Web Comic Gamma"
+  },
+  {
+    "id": 20,
+    "nama": "GFantasy"
+  },
+  {
+    "id": 21,
+    "nama": "Gessan"
+  },
+  {
+    "id": 22,
+    "nama": "Naver Webtoon"
+  },
+  {
+    "id": 23,
+    "nama": "Cookie"
+  },
+  {
+    "id": 24,
+    "nama": "Comic Bunch"
+  },
+  {
+    "id": 25,
+    "nama": "Young Magazine (Weekly)"
+  },
+  {
+    "id": 26,
+    "nama": "LaLa"
+  },
+  {
+    "id": 27,
+    "nama": "MangaONE"
+  },
+  {
+    "id": 28,
+    "nama": "Young Ace"
+  },
+  {
+    "id": 29,
+    "nama": "Shounen Sunday"
+  },
+  {
+    "id": 30,
+    "nama": "Young Champ"
+  },
+  {
+    "id": 31,
+    "nama": ""
+  },
+  {
+    "id": 32,
+    "nama": "Shounen Magazine (Monthly)"
+  },
+  {
+    "id": 33,
+    "nama": "Comica"
+  },
+  {
+    "id": 34,
+    "nama": "Shounen Sirius"
+  },
+  {
+    "id": 35,
+    "nama": "Daum Webtoon"
+  },
+  {
+    "id": 36,
+    "nama": "Monthly Action"
+  },
+  {
+    "id": 37,
+    "nama": "Kurage Bunch"
+  },
+  {
+    "id": 38,
+    "nama": "Jump SQ."
+  },
+  {
+    "id": 39,
+    "nama": "Comic POOL"
+  },
+  {
+    "id": 40,
+    "nama": "Betsucomi"
+  },
+  {
+    "id": 41,
+    "nama": "Jump SQ.Rise"
+  },
+  {
+    "id": 42,
+    "nama": "Cheri+"
+  },
+  {
+    "id": 43,
+    "nama": "Comic Alive"
+  },
+  {
+    "id": 44,
+    "nama": "Young King OURs"
+  },
+  {
+    "id": 45,
+    "nama": "Business Jump"
+  },
+  {
+    "id": 46,
+    "nama": "Nakayoshi"
+  },
+  {
+    "id": 47,
+    "nama": "Animage"
+  },
+  {
+    "id": 48,
+    "nama": "Gangan Online"
+  },
+  {
+    "id": 49,
+    "nama": "Mephisto"
+  },
+  {
+    "id": 50,
+    "nama": "Shounen Champion (Weekly)"
+  },
+  {
+    "id": 51,
+    "nama": "HiBaNa"
+  },
+  {
+    "id": 52,
+    "nama": "Bessatsu Margaret"
+  },
+  {
+    "id": 53,
+    "nama": "Shounen Sunday Super"
+  },
+  {
+    "id": 54,
+    "nama": "Young King OURs GH"
+  },
+  {
+    "id": 55,
+    "nama": "Harta"
+  },
+  {
+    "id": 56,
+    "nama": "Comic Garden"
+  },
+  {
+    "id": 57,
+    "nama": "Young Sunday (Weekly)"
+  },
+  {
+    "id": 58,
+    "nama": "Dessert"
+  },
+  {
+    "id": 59,
+    "nama": "Margaret"
+  },
+  {
+    "id": 60,
+    "nama": "Shounen Jump (Monthly)"
+  },
+  {
+    "id": 61,
+    "nama": "Comic Zenon"
+  },
+  {
+    "id": 62,
+    "nama": "Ura Sunday"
+  },
+  {
+    "id": 63,
+    "nama": "Morning Two"
+  },
+  {
+    "id": 64,
+    "nama": "Gangan Joker"
+  },
+  {
+    "id": 65,
+    "nama": "LaLa DX"
+  },
+  {
+    "id": 66,
+    "nama": "Dengeki Maoh"
+  },
+  {
+    "id": 67,
+    "nama": "Opera"
+  },
+  {
+    "id": 68,
+    "nama": "Zipper"
+  },
+  {
+    "id": 69,
+    "nama": "Be-Love"
+  },
+  {
+    "id": 70,
+    "nama": "The Sneaker"
+  },
+  {
+    "id": 71,
+    "nama": "Comic Flapper"
+  },
+  {
+    "id": 72,
+    "nama": "ARIA"
+  },
+  {
+    "id": 73,
+    "nama": "Bessatsu Friend"
+  },
+  {
+    "id": 74,
+    "nama": "Jump GIGA"
+  },
+  {
+    "id": 75,
+    "nama": "Flowers (Monthly)"
+  },
+  {
+    "id": 76,
+    "nama": "Young Gangan"
+  },
+  {
+    "id": 77,
+    "nama": "Craft"
+  },
+  {
+    "id": 78,
+    "nama": "Shounen Ace"
+  },
+  {
+    "id": 79,
+    "nama": "Comic Blade"
+  },
+  {
+    "id": 80,
+    "nama": "Sunday Gene-X"
+  },
+  {
+    "id": 81,
+    "nama": "Emerald"
+  },
+  {
+    "id": 82,
+    "nama": "Comp Ace"
+  },
+  {
+    "id": 83,
+    "nama": "Comic High!"
+  },
+  {
+    "id": 84,
+    "nama": "CoroCoro Comic"
+  },
+  {
+    "id": 85,
+    "nama": "Big Gangan"
+  },
+  {
+    "id": 86,
+    "nama": "Kiss"
+  },
+  {
+    "id": 87,
+    "nama": "ihr hertZ"
+  },
+  {
+    "id": 88,
+    "nama": "GUSH"
+  },
+  {
+    "id": 89,
+    "nama": "Ribon Magazine"
+  },
+  {
+    "id": 90,
+    "nama": "Gene pixiv"
+  },
+  {
+    "id": 91,
+    "nama": "Sho-Comi"
+  },
+  {
+    "id": 92,
+    "nama": "Horror M"
+  },
+  {
+    "id": 93,
+    "nama": "Comic Ryu"
+  },
+  {
+    "id": 94,
+    "nama": "Big Comic Superior"
+  },
+  {
+    "id": 95,
+    "nama": "Comic@Bunch"
+  },
+  {
+    "id": 96,
+    "nama": "Comic Dragon"
+  },
+  {
+    "id": 97,
+    "nama": "Manga Time Kirara Forward"
+  },
+  {
+    "id": 98,
+    "nama": "Canna"
+  },
+  {
+    "id": 99,
+    "nama": "Ciao"
+  },
+  {
+    "id": 100,
+    "nama": "Young King"
+  },
+  {
+    "id": 101,
+    "nama": "Mobile Man"
+  },
+  {
+    "id": 102,
+    "nama": "Gangan Powered"
+  },
+  {
+    "id": 103,
+    "nama": "Comic Beam"
+  },
+  {
+    "id": 104,
+    "nama": "twi4"
+  },
+  {
+    "id": 105,
+    "nama": "Manga Action"
+  },
+  {
+    "id": 106,
+    "nama": "Cocohana"
+  },
+  {
+    "id": 107,
+    "nama": "Cheese!"
+  },
+  {
+    "id": 108,
+    "nama": "Lezhin Comics Webtoon"
+  },
+  {
+    "id": 109,
+    "nama": "Star☆Girls"
+  },
+  {
+    "id": 110,
+    "nama": "Dear+"
+  },
+  {
+    "id": 111,
+    "nama": "Ikki"
+  },
+  {
+    "id": 112,
+    "nama": "Wings"
+  },
+  {
+    "id": 113,
+    "nama": "Young Champion Retsu"
+  },
+  {
+    "id": 114,
+    "nama": "Be x Boy GOLD"
+  },
+  {
+    "id": 115,
+    "nama": "Young Champion Magazine"
+  },
+  {
+    "id": 116,
+    "nama": "Chara"
+  },
+  {
+    "id": 117,
+    "nama": "Gangan Wing"
+  },
+  {
+    "id": 118,
+    "nama": "Web Comic Apanta"
+  },
+  {
+    "id": 119,
+    "nama": "Young Magazine Kaizokuban"
+  },
+  {
+    "id": 120,
+    "nama": "drap"
+  },
+  {
+    "id": 121,
+    "nama": "Grand Jump Premium"
+  },
+  {
+    "id": 122,
+    "nama": "CIEL TrèsTrès"
+  },
+  {
+    "id": 123,
+    "nama": "Famitsu Comic Clear"
+  },
+  {
+    "id": 124,
+    "nama": "RuTile"
+  },
+  {
+    "id": 125,
+    "nama": "Shounen Champion (Monthly)"
+  },
+  {
+    "id": 126,
+    "nama": "Asuka"
+  },
+  {
+    "id": 127,
+    "nama": "Dengeki Bunko Magazine"
+  },
+  {
+    "id": 128,
+    "nama": "Chance+"
+  },
+  {
+    "id": 129,
+    "nama": "Comic ZERO-SUM"
+  },
+  {
+    "id": 130,
+    "nama": "Fellows!"
+  },
+  {
+    "id": 131,
+    "nama": "Young You"
+  },
+  {
+    "id": 132,
+    "nama": "Dragon Youth"
+  },
+  {
+    "id": 133,
+    "nama": "Asuka Ciel"
+  },
+  {
+    "id": 134,
+    "nama": "Champion RED"
+  },
+  {
+    "id": 135,
+    "nama": "Grand Jump"
+  },
+  {
+    "id": 136,
+    "nama": "Young Ace UP"
+  },
+  {
+    "id": 137,
+    "nama": "onBLUE"
+  },
+  {
+    "id": 138,
+    "nama": "Comic Gene"
+  },
+  {
+    "id": 139,
+    "nama": "Comic Avarus"
+  },
+  {
+    "id": 140,
+    "nama": "Dragon Age"
+  },
+  {
+    "id": 141,
+    "nama": "Cita Cita"
+  },
+  {
+    "id": 142,
+    "nama": "Petit Comic"
+  },
+  {
+    "id": 143,
+    "nama": "YOU"
+  },
+  {
+    "id": 144,
+    "nama": "Newtype"
+  },
+  {
+    "id": 145,
+    "nama": "Comic Fans"
+  },
+  {
+    "id": 146,
+    "nama": "Shounen Jump NEXT!"
+  },
+  {
+    "id": 147,
+    "nama": "Comic Birz"
+  },
+  {
+    "id": 148,
+    "nama": "HertZ"
+  },
+  {
+    "id": 149,
+    "nama": "Cab"
+  },
+  {
+    "id": 150,
+    "nama": "Big Comic"
+  },
+  {
+    "id": 151,
+    "nama": "\"Dengeki Gs magazine\""
+  },
+  {
+    "id": 152,
+    "nama": "Stencil"
+  },
+  {
+    "id": 153,
+    "nama": "Shuukan Bunshun"
+  },
+  {
+    "id": 154,
+    "nama": "Nemuki"
+  },
+  {
+    "id": 155,
+    "nama": "Comic Days"
+  },
+  {
+    "id": 156,
+    "nama": "Sho-Comi Zoukan"
+  },
+  {
+    "id": 157,
+    "nama": "\"Dengeki Gs Comic\""
+  },
+  {
+    "id": 158,
+    "nama": "Comic Dengeki Daioh \"g\""
+  },
+  {
+    "id": 159,
+    "nama": "Deluxe Margaret"
+  },
+  {
+    "id": 160,
+    "nama": "Princess"
+  },
+  {
+    "id": 161,
+    "nama": "Magazine Be x Boy"
+  },
+  {
+    "id": 162,
+    "nama": "Comic Blade Zebel"
+  },
+  {
+    "id": 163,
+    "nama": "Comic Yuri Hime"
+  },
+  {
+    "id": 164,
+    "nama": "Mugen Anthology Series"
+  },
+  {
+    "id": 165,
+    "nama": "Blade Online"
+  },
+  {
+    "id": 166,
+    "nama": "Gangan pixiv"
+  },
+  {
+    "id": 167,
+    "nama": "Young Animal Arashi"
+  },
+  {
+    "id": 168,
+    "nama": "Manga Time Kirara"
+  },
+  {
+    "id": 169,
+    "nama": "AlphaPolis Web Manga"
+  },
+  {
+    "id": 170,
+    "nama": "Comic Newtype"
+  },
+  {
+    "id": 171,
+    "nama": "Magazine pocket"
+  },
+  {
+    "id": 172,
+    "nama": "Manga Shounen"
+  },
+  {
+    "id": 173,
+    "nama": "Comic Tom (Monthly)"
+  },
+  {
+    "id": 174,
+    "nama": "Bessatsu Hana to Yume"
+  },
+  {
+    "id": 175,
+    "nama": "pixiv Comic"
+  },
+  {
+    "id": 176,
+    "nama": "Gekkan! Spirits"
+  },
+  {
+    "id": 177,
+    "nama": "Shounen Captain"
+  },
+  {
+    "id": 178,
+    "nama": "Comic Gardo"
+  },
+  {
+    "id": 179,
+    "nama": "Sunday Webry"
+  },
+  {
+    "id": 180,
+    "nama": "Super Jump"
+  },
+  {
+    "id": 181,
+    "nama": "Evening"
+  },
+  {
+    "id": 182,
+    "nama": "Judy"
+  },
+  {
+    "id": 183,
+    "nama": "Ichiraci"
+  },
+  {
+    "id": 184,
+    "nama": "gateau"
+  },
+  {
+    "id": 185,
+    "nama": "Manga Time Kirara Carat"
+  },
+  {
+    "id": 186,
+    "nama": "Chara Selection"
+  },
+  {
+    "id": 187,
+    "nama": "Gundam Ace"
+  },
+  {
+    "id": 188,
+    "nama": "Comic Mahou no iLand"
+  },
+  {
+    "id": 189,
+    "nama": "Gust"
+  },
+  {
+    "id": 190,
+    "nama": "Boys Capi!"
+  },
+  {
+    "id": 191,
+    "nama": "Rinka"
+  },
+  {
+    "id": 192,
+    "nama": "Hanaoto"
+  },
+  {
+    "id": 193,
+    "nama": "Manga Cross"
+  },
+  {
+    "id": 194,
+    "nama": "Bessatsu Shounen Champion"
+  },
+  {
+    "id": 195,
+    "nama": "Hana LaLa online"
+  },
+  {
+    "id": 196,
+    "nama": "Comptiq"
+  },
+  {
+    "id": 197,
+    "nama": "Dengeki Comic Gao!"
+  },
+  {
+    "id": 198,
+    "nama": "Kurofune x LINE Manga"
+  },
+  {
+    "id": 199,
+    "nama": "Dra-Dra Sharp#"
+  },
+  {
+    "id": 200,
+    "nama": "Comic MeDu"
+  },
+  {
+    "id": 201,
+    "nama": "The Hana to Yume"
+  },
+  {
+    "id": 202,
+    "nama": "Comic Meteor"
+  },
+  {
+    "id": 203,
+    "nama": "Comic Bridge"
+  },
+  {
+    "id": 204,
+    "nama": "One Piece Magazine"
+  },
+  {
+    "id": 205,
+    "nama": "TYPE-MOON Comic Ace"
+  },
+  {
+    "id": 206,
+    "nama": "Young Magazine the 3rd"
+  },
+  {
+    "id": 207,
+    "nama": "Kindai Mahjong"
+  },
+  {
+    "id": 208,
+    "nama": "Comic REX"
+  },
+  {
+    "id": 209,
+    "nama": "Comic Corona"
+  },
+  {
+    "id": 210,
+    "nama": "Feel Young"
+  },
+  {
+    "id": 211,
+    "nama": "Comic Polaris"
+  },
+  {
+    "id": 212,
+    "nama": "Manga Erotics F"
+  },
+  {
+    "id": 213,
+    "nama": "b-boy Omegaverse"
+  },
+  {
+    "id": 214,
+    "nama": "Wink"
+  },
+  {
+    "id": 215,
+    "nama": "Sylph"
+  },
+  {
+    "id": 216,
+    "nama": "Omegaverse Project"
+  },
+  {
+    "id": 217,
+    "nama": "Quick Japan"
+  },
+  {
+    "id": 218,
+    "nama": "Shounen Magazine R"
+  },
+  {
+    "id": 219,
+    "nama": "Palcy"
+  },
+  {
+    "id": 220,
+    "nama": "Comic Tatan"
+  },
+  {
+    "id": 221,
+    "nama": "Comic Rush"
+  },
+  {
+    "id": 222,
+    "nama": "Super Beboy Comics"
+  },
+  {
+    "id": 223,
+    "nama": "Daiwon"
+  },
+  {
+    "id": 224,
+    "nama": "Jump X"
+  },
+  {
+    "id": 225,
+    "nama": "Manga Club"
+  }
+]
