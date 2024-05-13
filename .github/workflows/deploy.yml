@@ -22,6 +22,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+
       - name: Build and push
         id: build
         uses: docker/build-push-action@v2
@@ -29,14 +37,20 @@ jobs:
           context: .
           push: true
           tags: morisab/tamiyochi
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
 
   deploy:
     needs: build_and_push
     runs-on: ubuntu-latest
 
     steps:
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
         with:
@@ -45,7 +59,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/tamiyochi
-            sudo docker-compose down
+            sudo docker compose down
             sudo docker image rm {{ $secrets.DOCKER_REPO }}
-            sudo docker-compose pull
-            sudo docker-compose up -d
+            sudo docker compose pull
+            sudo docker compose up -d
