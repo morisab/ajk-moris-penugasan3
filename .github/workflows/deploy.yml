@@ -23,6 +23,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push
+        id: build
         uses: docker/build-push-action@v2
         with:
           context: .
@@ -32,6 +33,7 @@ jobs:
           cache-to: type=gha,mode=max
 
   deploy:
+    needs: build_and_push
     runs-on: ubuntu-latest
 
     steps:
@@ -43,7 +45,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/tamiyochi
-            sudo docker compose down
-            sudo docker image rm morisab/tamiyochi
-            sudo docker compose pull
-            sudo docker compose up -d
+            sudo docker-compose down
+            sudo docker image rm {{ $secrets.DOCKER_REPO }}
+            sudo docker-compose pull
+            sudo docker-compose up -d
