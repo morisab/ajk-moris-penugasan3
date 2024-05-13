@@ -26,6 +26,8 @@ RUN apt-get update && apt-get install -y \
 
 COPY . /var/www/html
 
+RUN chmod -R 777 /var/www/html
+
 COPY .env.example /var/www/html/.env
 
 WORKDIR /var/www/html
@@ -34,7 +36,7 @@ RUN composer install && \
     yarn --ignore-engines && \
     yarn build
 
-RUN chmod -R 777 /var/www/html
+RUN sudo chown -R www-data:www-data /var/www/html/storage/logs/
 
 COPY nginx-template.conf /etc/nginx/sites-enabled/
 RUN rm /etc/nginx/sites-enabled/default
