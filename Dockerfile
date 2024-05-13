@@ -36,7 +36,7 @@ RUN composer install && \
     yarn --ignore-engines && \
     yarn build
 
-RUN sudo chown -R www-data:www-data /var/www/html/storage/logs/
+RUN chown -R www-data:www-data /var/www/html/storage/logs/
 
 COPY nginx-template.conf /etc/nginx/sites-enabled/
 RUN rm /etc/nginx/sites-enabled/default
