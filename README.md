@@ -201,14 +201,34 @@ File ini terdiri dari dua jobs, yaitu build_and_push dan deploy. Job build_and_p
 
 Berikut adalah screenshot dari proses CI/CD menggunakan Github Actions dan Docker:
 
-1. Kondisi ketika mengakses IP server sebelum container dijalankan:
+Kondisi ketika mengakses IP server sebelum container dijalankan:
+
 ![server_before](https://cdn.discordapp.com/attachments/1233979634672996424/1239927539636371537/image.png?ex=6644b402&is=66436282&hm=b4a6cae830e1b3427858ae6f59a13a715cd16e2f8a083f96ad16b24a12c045da&)
+
 Dapat dilihat muncul pesan "This site can't be reached". Karenanya, aplikasi Tamiyochi belum dijalankan.
 
-2. Kemudian dilakukan perubahan pada repository untuk mentrigger Github Actions:
+Kemudian dilakukan perubahan pada repository untuk mentrigger Github Actions:
+
 ![gitpush](https://cdn.discordapp.com/attachments/1233979634672996424/1239928904559624192/image.png?ex=6644b547&is=664363c7&hm=a9fbd45aa5b51923064aedb97634492ead984df068372e1bdffdb287b34b0d51&)
 
 Kemudian jika dilihat pada Actions, terdapat workflow yang sedang berjalan:
-![workflow](https://cdn.discordapp.com/attachments/1233979634672996424/1239929275407138846/image.png?ex=6644b5a0&is=66436420&hm=b7ef14acd98ccb9f73d10c777c3069a3cb5bb352335bb98ecffdde37a358b164&)
 
-Ketika diklik pada workflow yang sedang berjalan maka akan muncul detail proses yang sedang berjalan:
+![workflow](https://cdn.discordapp.com/attachments/1233979634672996424/1239933274516750388/image.png?ex=6644b959&is=664367d9&hm=435887ac1fe9e8fc9a230cc8837978538d230c9caf59f75953381ee71d4624a2&)
+
+Ketika diklik pada workflow yang sedang berjalan maka akan muncul job yang sedang berjalan:
+
+![job_running](https://cdn.discordapp.com/attachments/1233979634672996424/1239933274927923271/image.png?ex=6644b959&is=664367d9&hm=215468168ce3dc27c02f5d0b1e37d6c9977d50bd721e90e0f62f42a72f7e23ff&)
+
+Ketika job selesai, maka akan muncul tanda centang hijau pada job tersebut:
+
+![job_done](https://cdn.discordapp.com/attachments/1233979634672996424/1239935190894247976/image.png?ex=6644bb22&is=664369a2&hm=0bea3ae128bc7621d16b40764827276c627a4746183b69541fca0e7e871844d1&)
+
+Apabila diklik pada job tersebut, maka akan muncul log dari job tersebut:
+
+![build_and_push](https://cdn.discordapp.com/attachments/1233979634672996424/1239935386189303890/image.png?ex=6644bb50&is=664369d0&hm=73e4f7312f4d5e76c06acbdfda81fcd159ebebb965d89d443513aad81c0c72e6&)
+
+![deploy](https://cdn.discordapp.com/attachments/1233979634672996424/1239935386562592878/image.png?ex=6644bb51&is=664369d1&hm=6502f024d2d6872ed19d6bdbcdae9eeedd876174f01232f031d36b8a1d81a70e&)
+
+Setelah proses selesai, maka aplikasi Tamiyochi akan dijalankan pada server:
+
+![server_after](https://cdn.discordapp.com/attachments/1233979634672996424/1239935283458211900/image.png?ex=6644bb38&is=664369b8&hm=911c744d88547e0e726273e7c99fb36822517e71c82ad776b8ccae6bbaefbbee&)
