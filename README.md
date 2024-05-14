@@ -71,25 +71,13 @@ EXPOSE 80
 CMD ["./entrypoint.sh"]
 ```
 
-**Penjelasan:** <br>
-- `FROM ubuntu:latest` : Menggunakan image Ubuntu sebagai base image.
-- `RUN apt-get update && apt-get install -y ...` : Menginstall beberapa package yang dibutuhkan.
-- `COPY . /var/www/html` : Menyalin seluruh file pada repository ke dalam container.
-- `RUN chmod -R 777 /var/www/html` : Mengubah permission seluruh file pada repository.
-- `COPY .env.example /var/www/html/.env` : Menyalin file .env.example ke file .env dalam container.
-- `WORKDIR /var/www/html` : Menentukan working directory.
-- `RUN composer install && ...` : Menjalankan perintah composer install dan yarn build.
-- `RUN chown -R www-data:www-data /var/www/html/storage/logs/` : Mengubah ownership dari folder storage/logs.
-- `COPY nginx-template.conf /etc/nginx/sites-enabled/` : Menyalin file nginx-template.conf ke dalam container. File ini digunakan sebagai konfigurasi Nginx untuk aplikasi Tamiyochi.
-- `RUN rm /etc/nginx/sites-enabled/default` : Menghapus file default pada folder sites-enabled.
-- `RUN chmod +x entrypoint.sh` : Mengubah permission file entrypoint.sh menjadi executable.
-- `EXPOSE 80` : Menentukan port yang akan di-expose oleh container. 
-- `CMD ["./entrypoint.sh"]` : Menjalankan file entrypoint.sh. File ini berisi perintah seperti pada script bash di bawah ini.
+Dockerfile ini dibuat untuk membangun sebuah image Docker untuk aplikasi Tamiyochi. Image ini dibangun di atas image Ubuntu versi terbaru dan menginstal berbagai package yang dibutuhkan oleh aplikasi, termasuk curl, git, nginx, nodejs, npm, dan beberapa ekstensi PHP. Seluruh file aplikasi kemudian disalin ke dalam container dan beberapa package diinstal menggunakan composer dan yarn. Dockerfile ini juga mengatur konfigurasi nginx dan menjalankan entrypoint.sh saat container dijalankan. Tujuan utamanya adalah untuk menyediakan lingkungan yang siap pakai dan terisolasi untuk menjalankan aplikasi Tamiyochi.
+
+#### entrypoint.sh
 
 ```bash
 #!/bin/bash
 
-sleep 60
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
@@ -99,13 +87,8 @@ service nginx restart
 tail -f /dev/null
 ```
 
-- `sleep 60` : Menunggu 60 detik. Ini untuk memastikan bahwa container mysql sudah berjalan sehingga perintah selanjutnya dapat dieksekusi.
-- `php artisan key:generate` : Membuat key baru untuk aplikasi Laravel.
-- `php artisan migrate` : Menjalankan migration untuk membuat tabel-tabel yang dibutuhkan.
-- `php artisan db:seed` : Menjalankan seeder untuk mengisi data ke dalam tabel.
-- `php artisan storage:link` : Membuat symlink dari folder storage ke folder public.
-- `service php8.2-fpm restart` : Restart service php8.2-fpm untuk menerapkan perubahan.
-- `service nginx restart` : Restart service nginx untuk menerapkan perubahan.
+Script entrypoint.sh ini digunakan untuk menginisialisasi dan menjalankan aplikasi Tamiyochi. Script ini akan menjalankan beberapa perintah untuk menghasilkan key aplikasi dan menyiapkan database dengan melakukan migrasi dan seeding. Selanjutnya, script ini akan membuat symlink untuk storage dan me-restart layanan PHP dan Nginx untuk memastikan semua perubahan diterapkan. Terakhir, script ini menjalankan perintah yang membuat container tetap berjalan. 
+
 
 ### docker-compose.yml
 
@@ -122,6 +105,10 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     networks:
       - laravel-network
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
 
   app:
     image: morisab/tamiyochi
@@ -129,7 +116,8 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
     networks:
       - laravel-network
 
@@ -139,20 +127,88 @@ networks:
     driver: bridge
 ```
 
-**Penjelasan:** <br>
-- `mysql` : Service untuk menjalankan container mysql.
-    - `image: mysql` : Menggunakan image mysql sebagai base image.
-    - `container name: database` : Menentukan nama container yang akan dijalankan.
-    - `restart: always` : Menjalankan ulang container jika terjadi error.
-    - `environment: ...` : Menentukan environment variable yang dibutuhkan.
-    - `networks: ...` : Menentukan network yang digunakan.
-- `app` : Service untuk menjalankan container aplikasi Tamiyochi.
-    - `image: morisab/tamiyochi` : Menggunakan image aplikasi Tamiyochi yang sudah di-push ke Docker Hub.
-    - `container name: app` : Menentukan nama container yang akan dijalankan.
-    - `ports: ...` : Menentukan port yang akan di-expose oleh container.
-    - `depends_on: ...` : Menentukan service yang harus dijalankan terlebih dahulu.
-    - `networks: ...` : Menentukan network yang digunakan.
-- `networks` : Menentukan network yang digunakan.
-    - `name: budi-net` : Menentukan nama network yang digunakan.
-    - `driver: bridge` : Menentukan driver yang digunakan.
-    
+File `docker-compose.yml` ini digunakan untuk mendefinisikan dan menjalankan dua service, yaitu database MySQL sebagai mysql dan aplikasi Tamiyochi sebagai app. Container database akan menggunakan image MySQL yang tersedia di Docker Hub. Database ini diatur untuk selalu restart ketika terjadi kegagalan. Terdapat juga environment variable yang digunakan untuk mengatur nama database dan mengizinkan penggunaan password kosong. Container ini menggunakan network laravel-network yang dibuat sebagai bridge network untuk menghubungkan container database dan aplikasi. Terdapat pula healthcheck yang digunakan untuk memastikan database berjalan dengan baik sebelum aplikasi dijalankan. Container app akan menggunakan image dari Dockerfile yang telah dibuat sebelumnya. Container ini akan dijalankan pada port 80 dan baru akan dijalankan setelah container database siap untuk digunakan. Container ini juga menggunakan network yang sama dengan container database. Network ini dibuat sebagai bridge network agar container dapat berkomunikasi satu sama lain.
+
+## Github Actions
+Pada repository Github, dibuat file `.github/workflows/deploymen.yml` untuk melakukan proses CI/CD menggunakan Github Actions. File ini akan dijalankan setiap kali terjadi perubahan pada repository Github. File ini akan melakukan proses build, membuat image baru, mengupdate image pada Docker Hub, dan menjalankan docker-compose di server. Berikut adalah isi file `deployment.yml`:
+
+```yaml
+name: Docker build and deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push
+        id: build
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: morisab/tamiyochi
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy:
+    needs: build_and_push
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Execute remote ssh commands
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: moris
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd ~/tamiyochi
+            sudo docker compose down
+            sudo docker image rm morisab/tamiyochi
+            sudo docker compose pull
+            sudo docker compose up -d
+```
+
+File ini terdiri dari dua jobs, yaitu build_and_push dan deploy. Job build_and_push akan dijalankan ketika terjadi push pada branch main. Job ini akan melakukan checkout kode, setup Docker Buildx, login ke Docker Hub, build dan push image baru ke Docker Hub. Job ini menggunakan beberapa action dari Docker, yaitu actions/checkout, docker/setup-buildx-action, docker/login-action, dan docker/build-push-action serta menggunakan cache untuk mempercepat proses build. Job deploy akan dijalankan setelah job build_and_push selesai. Job ini akan melakukan SSH ke server, menghapus container dan image lama, pull image baru dari Docker Hub, dan menjalankan container baru menggunakan docker-compose. Job ini menggunakan action appleboy/ssh-action untuk melakukan SSH ke server. Pada file ini, digunakan beberapa secret untuk menyimpan informasi yang sensitif. Secret yang digunakan adalah DOCKERHUB_USERNAME, DOCKERHUB_TOKEN, HOST_IP, dan SSH_PRIVATE_KEY.
+
+## Cara Kerja
+
+1. Developer melakukan perubahan pada repository Github.
+2. Github Actions akan mendeteksi perubahan dan menjalankan job build_and_push.
+3. Job build_and_push akan melakukan checkout kode, setup Docker Buildx, login ke Docker Hub, build dan push image baru ke Docker Hub.
+4. Setelah proses build selesai, Github Actions akan menjalankan job deploy.
+5. Job deploy akan melakukan SSH ke server, menghapus container dan image lama, pull image baru dari Docker Hub, dan menjalankan container baru menggunakan docker-compose.
+6. Aplikasi Tamiyochi akan dijalankan pada server.
+
+## Screenshot
+
+Berikut adalah screenshot dari proses CI/CD menggunakan Github Actions dan Docker:
+
+1. Kondisi ketika mengakses IP server sebelum container dijalankan:
+![server_before](https://cdn.discordapp.com/attachments/1233979634672996424/1239927539636371537/image.png?ex=6644b402&is=66436282&hm=b4a6cae830e1b3427858ae6f59a13a715cd16e2f8a083f96ad16b24a12c045da&)
+Dapat dilihat muncul pesan "This site can't be reached". Karenanya, aplikasi Tamiyochi belum dijalankan.
+
+2. Kemudian dilakukan perubahan pada repository untuk mentrigger Github Actions:
+![gitpush](https://cdn.discordapp.com/attachments/1233979634672996424/1239928904559624192/image.png?ex=6644b547&is=664363c7&hm=a9fbd45aa5b51923064aedb97634492ead984df068372e1bdffdb287b34b0d51&)
+
+Kemudian jika dilihat pada Actions, terdapat workflow yang sedang berjalan:
+![workflow](https://cdn.discordapp.com/attachments/1233979634672996424/1239929275407138846/image.png?ex=6644b5a0&is=66436420&hm=b7ef14acd98ccb9f73d10c777c3069a3cb5bb352335bb98ecffdde37a358b164&)
+
+Ketika diklik pada workflow yang sedang berjalan maka akan muncul detail proses yang sedang berjalan:
