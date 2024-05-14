@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 
-# Install required packages
 RUN apt-get update && apt-get install -y \
     software-properties-common \
     curl \
@@ -25,23 +24,17 @@ RUN apt-get update && apt-get install -y \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy only composer and yarn dependency files
-COPY composer.json composer.lock /var/www/html/
-COPY package.json yarn.lock /var/www/html/
-
-WORKDIR /var/www/html
-
-# Install composer and yarn dependencies
-RUN composer install && \
-    yarn --ignore-engines && \
-    yarn build
-
-# Copy the rest of the application files
 COPY . /var/www/html
 
 RUN chmod -R 777 /var/www/html
 
 COPY .env.example /var/www/html/.env
+
+WORKDIR /var/www/html
+
+RUN composer install && \
+    yarn && \
+    yarn build
 
 RUN chown -R www-data:www-data /var/www/html/storage/logs/
 
