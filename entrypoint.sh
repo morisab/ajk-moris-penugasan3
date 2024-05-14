@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sleep 60
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
