@@ -28,7 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          load: true
           tags: morisab/tamiyochi
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -38,27 +37,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Copy docker-compose.yml
-        uses: appleboy/scp-action@master
+      - name: Copy files
+        uses: picodebr/copy-action@v1
         with:
-          host: ${{ secrets.HOST_IP }}
-          username: moris
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "docker-compose.yml"
-          target: "~/tamiyochi/"
-          overwrite: true
-
-      - uses: actions/checkout@v4
-      - name: Copy Nginx configuration
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOST_IP }}
-          username: moris
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "nginx.conf"
-          target: "~/tamiyochi/"
-          overwrite: true
-
+          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_user: moris
+          ssh_host: ${{ secrets.HOST_IP }}
+          source: nginx.conf docker-compose.yml
+          destination: ~/tamayochi
           
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
