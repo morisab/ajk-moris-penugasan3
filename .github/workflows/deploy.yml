@@ -44,7 +44,7 @@ jobs:
           host: ${{ secrets.HOST_IP }}
           username: moris
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "./nginx-template.conf, ./docker-compose.yml"
+          source: "./nginx.conf, ./docker-compose.yml"
           target: "~/tamiyochi/"
           overwrite: true
 

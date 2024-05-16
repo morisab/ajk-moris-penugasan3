@@ -144,7 +144,7 @@ server {
 File nginx.conf ini digunakan untuk konfigurasi Nginx. File ini akan digunakan oleh service nginx pada docker-compose.yml. File ini akan mengatur Nginx untuk mendengarkan pada port 80, mengarahkan root direktori ke /var/www/html/public, dan mengatur konfigurasi PHP-FPM.
 
 ## Github Actions
-Pada repository Github, dibuat file `.github/workflows/deploymen.yml` untuk melakukan proses CI/CD menggunakan Github Actions. File ini akan dijalankan setiap kali terjadi perubahan pada repository Github. File ini akan melakukan proses build, membuat image baru, mengupdate image pada Docker Hub, dan menjalankan docker-compose di server. Berikut adalah isi file `deployment.yml`:
+Pada repository Github, dibuat file `.github/workflows/deploy.yml` untuk melakukan proses CI/CD menggunakan Github Actions. File ini akan dijalankan setiap kali terjadi perubahan pada repository Github. File ini akan melakukan proses build, membuat image baru, mengupdate image pada Docker Hub, dan menjalankan docker-compose di server. Berikut adalah isi file `deploy.yml`:
 
 ```yaml
 name: Docker build and deploy
@@ -218,7 +218,7 @@ File ini terdiri dari dua jobs, yaitu build_and_push dan deploy. Job build_and_p
 2. Github Actions akan mendeteksi perubahan dan menjalankan job build_and_push.
 3. Job build_and_push akan melakukan checkout kode, setup Docker Buildx, login ke Docker Hub, build dan push image baru ke Docker Hub.
 4. Setelah proses build selesai, Github Actions akan menjalankan job deploy.
-5. Job deploy akan melakukan SSH ke server, menghapus container dan image lama, pull image baru dari Docker Hub, dan menjalankan container baru menggunakan docker-compose.
+5. Job deploy akan melakukan SSH ke server, menyalin file konfigurasi Nginx dan docker-compose, pull image baru dari Docker Hub, dan menjalankan container baru menggunakan docker-compose.
 6. Aplikasi Tamiyochi akan dijalankan pada server.
 
 ## Screenshot
