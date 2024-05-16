@@ -28,6 +28,7 @@ jobs:
         with:
           context: .
           push: true
+          load: true
           tags: morisab/tamiyochi
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -46,6 +47,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "nginx-template.conf"
           target: "~/tamiyochi/nginx.conf"
+          overwrite: true
 
       - name: Copy docker-compose.yml
         uses: appleboy/scp-action@master
@@ -55,6 +57,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "docker-compose.yml"
           target: "~/tamiyochi/docker-compose.yml"
+          overwrite: true
           
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
