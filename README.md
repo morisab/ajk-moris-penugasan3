@@ -22,31 +22,17 @@ Dibuat Dockerfile dan docker-compose.yml untuk melakukan kontainerisasi aplikasi
 ### Dockerfile
 
 ```Dockerfile
-FROM ubuntu:latest
+FROM php:8.2-fpm-alpine
 
-RUN apt-get update && apt-get install -y \
-    software-properties-common \
+RUN apk update && apk add --no-cache \
+    npm \
     curl \
     git \
-    nginx \
-    nodejs \
-    npm \
-    unzip && \
-    add-apt-repository ppa:ondrej/php && \
-    apt-get update && \
-    apt-get install -y \
-    php8.2-fpm \
-    php8.2-mysql \
-    php8.2-cli \
-    php8.2-curl \
-    php8.2-gd \
-    php8.2-mbstring \
-    php8.2-xml \
-    php8.2-zip && \
+    unzip \
+    bash && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
-    npm install --global yarn && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    npm install -g yarn && \
+    docker-php-ext-install pdo_mysql
 
 COPY . /var/www/html
 
@@ -56,22 +42,15 @@ COPY .env.example /var/www/html/.env
 
 WORKDIR /var/www/html
 
-RUN composer install && \
-    yarn --ignore-engines && \
-    yarn build
+RUN composer install && yarn && yarn build
 
-RUN chown -R www-data:www-data /var/www/html/storage/logs/
-
-COPY nginx-template.conf /etc/nginx/sites-enabled/
-RUN rm /etc/nginx/sites-enabled/default
-RUN chmod +x entrypoint.sh
-
-EXPOSE 80
+EXPOSE 9000
 
 CMD ["./entrypoint.sh"]
+
 ```
 
-Dockerfile ini dibuat untuk membangun sebuah image Docker untuk aplikasi Tamiyochi. Image ini dibangun di atas image Ubuntu versi terbaru dan menginstal berbagai package yang dibutuhkan oleh aplikasi, termasuk curl, git, nginx, nodejs, npm, dan beberapa ekstensi PHP. Seluruh file aplikasi kemudian disalin ke dalam container dan beberapa package diinstal menggunakan composer dan yarn. Dockerfile ini juga mengatur konfigurasi nginx dan menjalankan entrypoint.sh saat container dijalankan. Tujuan utamanya adalah untuk menyediakan lingkungan yang siap pakai dan terisolasi untuk menjalankan aplikasi Tamiyochi.
+Dockerfile ini digunakan untuk membuat image aplikasi Tamiyochi. Menggunakan base image php:8.2-fpm-alpine. Kemudian, melakukan update dan install beberapa package yang dibutuhkan, seperti npm, curl, git, unzip, bash, dan composer. Selanjutnya, menginstall composer dan yarn. Kemudian, menginstall ekstensi pdo_mysql untuk menghubungkan aplikasi dengan database MySQL. Selanjutnya, menyalin kode aplikasi ke dalam container dan mengubah permission file. Menyalin file .env.example ke dalam container. Menjalankan perintah composer install dan yarn untuk menginstall dependency aplikasi. Terakhir, mengekspose port 9000 dan menjalankan script entrypoint.sh.
 
 #### entrypoint.sh
 
@@ -82,12 +61,10 @@ php artisan key:generate
 php artisan migrate
 php artisan db:seed
 php artisan storage:link
-service php8.2-fpm restart
-service nginx restart
-tail -f /dev/null
+php-fpm
 ```
 
-Script entrypoint.sh ini digunakan untuk menginisialisasi dan menjalankan aplikasi Tamiyochi. Script ini akan menjalankan beberapa perintah untuk menghasilkan key aplikasi dan menyiapkan database dengan melakukan migrasi dan seeding. Selanjutnya, script ini akan membuat symlink untuk storage dan me-restart layanan PHP dan Nginx untuk memastikan semua perubahan diterapkan. Terakhir, script ini menjalankan perintah yang membuat container tetap berjalan. 
+Script entrypoint.sh ini digunakan untuk menjalankan beberapa perintah saat container dijalankan. Pertama, script ini akan mengenerate key baru untuk aplikasi, melakukan migrasi database, melakukan seeding database, dan membuat symlink untuk storage. Terakhir, script ini akan menjalankan php-fpm untuk menjalankan aplikasi.
 
 
 ### docker-compose.yml
@@ -111,15 +88,25 @@ services:
       retries: 10
 
   app:
-    image: morisab/tamiyochi
+    image: morisab/tamiyochi:latest
     container_name: app
-    ports:
-      - "80:80"
+    networks:
+      - laravel-network
     depends_on:
       mysql:
         condition: service_healthy
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
     networks:
       - laravel-network
+    depends_on:
+      - app
 
 networks:
   laravel-network:
@@ -127,7 +114,34 @@ networks:
     driver: bridge
 ```
 
-File `docker-compose.yml` ini digunakan untuk mendefinisikan dan menjalankan dua service, yaitu database MySQL sebagai mysql dan aplikasi Tamiyochi sebagai app. Container database akan menggunakan image MySQL yang tersedia di Docker Hub. Database ini diatur untuk selalu restart ketika terjadi kegagalan. Terdapat juga environment variable yang digunakan untuk mengatur nama database dan mengizinkan penggunaan password kosong. Container ini menggunakan network laravel-network yang dibuat sebagai bridge network untuk menghubungkan container database dan aplikasi. Terdapat pula healthcheck yang digunakan untuk memastikan database berjalan dengan baik sebelum aplikasi dijalankan. Container app akan menggunakan image dari Dockerfile yang telah dibuat sebelumnya. Container ini akan dijalankan pada port 80 dan baru akan dijalankan setelah container database siap untuk digunakan. Container ini juga menggunakan network yang sama dengan container database. Network ini dibuat sebagai bridge network agar container dapat berkomunikasi satu sama lain.
+File docker-compose.yml ini digunakan untuk menjalankan container aplikasi Tamiyochi. File ini terdiri dari tiga service, yaitu mysql, app, dan nginx. Service mysql digunakan untuk menjalankan database MySQL. Service app digunakan untuk menjalankan aplikasi Tamiyochi. Service nginx digunakan untuk menjalankan web server Nginx. Service app akan bergantung pada service mysql dan service nginx akan bergantung pada service app. File ini juga mendefinisikan sebuah network yang digunakan oleh ketiga service tersebut.
+
+#### nginx.conf
+
+```
+server {
+    listen 80;
+    server_name localhost;
+    root /var/www/html/public;
+
+    index index.php index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+    }
+
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
+```
+
+File nginx.conf ini digunakan untuk konfigurasi Nginx. File ini akan digunakan oleh service nginx pada docker-compose.yml. File ini akan mengatur Nginx untuk mendengarkan pada port 80, mengarahkan root direktori ke /var/www/html/public, dan mengatur konfigurasi PHP-FPM.
 
 ## Github Actions
 Pada repository Github, dibuat file `.github/workflows/deploymen.yml` untuk melakukan proses CI/CD menggunakan Github Actions. File ini akan dijalankan setiap kali terjadi perubahan pada repository Github. File ini akan melakukan proses build, membuat image baru, mengupdate image pada Docker Hub, dan menjalankan docker-compose di server. Berikut adalah isi file `deployment.yml`:
@@ -172,6 +186,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+      - name: Copy Nginx configuration and Docker-Compose file
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: moris
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "./nginx-template.conf, ./docker-compose.yml"
+          target: "~/tamiyochi/"
+          overwrite: true
+
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
         with:
@@ -180,13 +205,12 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/tamiyochi
+            sudo docker pull morisab/tamiyochi:latest
             sudo docker compose down
-            sudo docker image rm morisab/tamiyochi
-            sudo docker compose pull
             sudo docker compose up -d
 ```
 
-File ini terdiri dari dua jobs, yaitu build_and_push dan deploy. Job build_and_push akan dijalankan ketika terjadi push pada branch main. Job ini akan melakukan checkout kode, setup Docker Buildx, login ke Docker Hub, build dan push image baru ke Docker Hub. Job ini menggunakan beberapa action dari Docker, yaitu actions/checkout, docker/setup-buildx-action, docker/login-action, dan docker/build-push-action serta menggunakan cache untuk mempercepat proses build. Job deploy akan dijalankan setelah job build_and_push selesai. Job ini akan melakukan SSH ke server, menghapus container dan image lama, pull image baru dari Docker Hub, dan menjalankan container baru menggunakan docker-compose. Job ini menggunakan action appleboy/ssh-action untuk melakukan SSH ke server. Pada file ini, digunakan beberapa secret untuk menyimpan informasi yang sensitif. Secret yang digunakan adalah DOCKERHUB_USERNAME, DOCKERHUB_TOKEN, HOST_IP, dan SSH_PRIVATE_KEY.
+File ini terdiri dari dua jobs, yaitu build_and_push dan deploy. Job build_and_push akan dijalankan ketika terjadi push pada branch main. Job ini akan melakukan checkout kode, setup Docker Buildx, login ke Docker Hub, build dan push image baru ke Docker Hub. Job ini menggunakan beberapa action dari Docker, yaitu actions/checkout, docker/setup-buildx-action, docker/login-action, dan docker/build-push-action serta menggunakan cache untuk mempercepat proses build. Job deploy akan dijalankan setelah job build_and_push selesai. Job ini akan melakukan checkout kode, mengcopy file konfigurasi Nginx dan docker-compose, dan menjalankan perintah SSH untuk melakukan pull image baru dari Docker Hub dan menjalankan container baru menggunakan docker-compose.
 
 ## Cara Kerja
 
