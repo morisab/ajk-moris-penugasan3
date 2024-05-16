@@ -37,15 +37,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Copy files
-        uses: picodebr/copy-action@v1
+      - uses: actions/checkout@v4
+      - name: Copy Nginx configuration and Docker-Compose file
+        uses: appleboy/scp-action@master
         with:
-          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          ssh_user: moris
-          ssh_host: ${{ secrets.HOST_IP }}
-          source: nginx.conf docker-compose.yml
-          destination: ~/tamayochi
-          
+          host: ${{ secrets.HOST_IP }}
+          username: moris
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "./nginx-template.conf, ./docker-compose.yml"
+          target: "~/tamiyochi/""
+          overwrite: true
+
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
         with:
