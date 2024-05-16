@@ -203,7 +203,7 @@ Berikut adalah screenshot dari proses CI/CD menggunakan Github Actions dan Docke
 
 Kondisi ketika mengakses IP server sebelum container dijalankan:
 
-![server_before](https://cdn.discordapp.com/attachments/1233979634672996424/1239927539636371537/image.png?ex=6644b402&is=66436282&hm=b4a6cae830e1b3427858ae6f59a13a715cd16e2f8a083f96ad16b24a12c045da&)
+![server_before](https://cdn.discordapp.com/attachments/1233979634672996424/1239927539636371537/image.png?ex=66475702&is=66460582&hm=7d5346fb56c516b08f3ec1fdcc5690c1a5fbf0f1ecaab1fb0b94bc5f8a407683&)
 
 Dapat dilihat muncul pesan "This site can't be reached". Karenanya, aplikasi Tamiyochi belum dijalankan.
 

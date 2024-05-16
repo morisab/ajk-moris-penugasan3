@@ -37,6 +37,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Copy Nginx configuration
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: moris
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "nginx-template.conf"
+          target: "~/tamiyochi/nginx.conf"
+
+      - name: Copy docker-compose.yml
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST_IP }}
+          username: moris
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "docker-compose.yml"
+          target: "~/tamiyochi/docker-compose.yml"
+          
       - name: Execute remote ssh commands
         uses: appleboy/ssh-action@master
         with:
@@ -45,7 +63,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/tamiyochi
+            sudo docker pull morisab/tamiyochi:latest
             sudo docker compose down
-            sudo docker image rm morisab/tamiyochi
-            sudo docker compose pull
             sudo docker compose up -d
