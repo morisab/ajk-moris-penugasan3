@@ -66,7 +66,6 @@ php-fpm
 
 Script entrypoint.sh ini digunakan untuk menjalankan beberapa perintah saat container dijalankan. Pertama, script ini akan mengenerate key baru untuk aplikasi, melakukan migrasi database, melakukan seeding database, dan membuat symlink untuk storage. Terakhir, script ini akan menjalankan php-fpm untuk menjalankan aplikasi.
 
-
 ### docker-compose.yml
 
 ```yaml
@@ -83,7 +82,7 @@ services:
     networks:
       - laravel-network
     healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       timeout: 20s
       retries: 10
 
@@ -119,24 +118,31 @@ File docker-compose.yml ini digunakan untuk menjalankan container aplikasi Tamiy
 #### nginx.conf
 
 ```
-server {
-    listen 80;
-    server_name localhost;
-    root /var/www/html/public;
+events {
+    worker_connections 1024;
+}
+http{
+    server {
+        listen 80;
+        server_name localhost;
+        root /var/www/html/public;
 
-    index index.php index.html index.htm;
+        index index.php index.html index.htm;
 
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
+        location / {
+            try_files $uri $uri/ /index.php?$query_string;
+        }
 
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
-    }
+        location ~ \.php$ {
+            include fastcgi_params;
+            fastcgi_pass app:9000;
+            fastcgi_param SCRIPT_FILENAME /var/www/html/public/$fastcgi_script_name;
+            fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+        }
 
-    location ~ /\.(?!well-known).* {
-        deny all;
+        location ~ /\.(?!well-known).* {
+            deny all;
+        }
     }
 }
 ```
@@ -144,6 +150,7 @@ server {
 File nginx.conf ini digunakan untuk konfigurasi Nginx. File ini akan digunakan oleh service nginx pada docker-compose.yml. File ini akan mengatur Nginx untuk mendengarkan pada port 80, mengarahkan root direktori ke /var/www/html/public, dan mengatur konfigurasi PHP-FPM.
 
 ## Github Actions
+
 Pada repository Github, dibuat file `.github/workflows/deploy.yml` untuk melakukan proses CI/CD menggunakan Github Actions. File ini akan dijalankan setiap kali terjadi perubahan pada repository Github. File ini akan melakukan proses build, membuat image baru, mengupdate image pada Docker Hub, dan menjalankan docker-compose di server. Berikut adalah isi file `deploy.yml`:
 
 ```yaml
@@ -193,7 +200,7 @@ jobs:
           host: ${{ secrets.HOST_IP }}
           username: moris
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "./nginx-template.conf, ./docker-compose.yml"
+          source: "./nginx.conf, ./docker-compose.yml"
           target: "~/tamiyochi/"
           overwrite: true
 
