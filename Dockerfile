@@ -12,7 +12,7 @@ RUN apk update && apk add --no-cache \
     npm install -g yarn && \
     docker-php-ext-install pdo_mysql
 
-COPY ./Tamiyochi /var/www/html
+COPY ./Tamiyochi/ /var/www/html
 
 RUN chmod -R 777 /var/www/html
 
