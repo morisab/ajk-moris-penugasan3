@@ -17,7 +17,7 @@ Penugasan ini bertujuan untuk menerapkan CI/CD pada aplikasi Tamiyochi menggunak
 
 ## Docker
 
-Dibuat Dockerfile dan docker-compose.yml untuk melakukan kontainerisasi aplikasi Tamiyochi. Dockerfile digunakan untuk membuat image aplikasi Tamiyochi. Dockerfile ini terdapat pada repository Github. Selain itu, docker-compose.yml digunakan untuk menjalankan container aplikasi Tamiyochi. Docker-compose.yml ini terdapat pada server.
+Dibuat Dockerfile dan docker-compose.yml untuk melakukan kontainerisasi aplikasi Tamiyochi. Dockerfile digunakan untuk membuat image aplikasi Tamiyochi.
 
 ### Dockerfile
 
