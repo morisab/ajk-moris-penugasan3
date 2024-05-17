@@ -1,5 +1,7 @@
 FROM php:8.2-fpm-alpine
 
+WORKDIR /var/www/html
+
 RUN apk update && apk add --no-cache \
     npm \
     curl \
@@ -10,13 +12,11 @@ RUN apk update && apk add --no-cache \
     npm install -g yarn && \
     docker-php-ext-install pdo_mysql
 
-COPY . /var/www/html
+COPY ./Tamiyochi /var/www/html
 
 RUN chmod -R 777 /var/www/html
 
-COPY .env.example /var/www/html/.env
-
-WORKDIR /var/www/html
+COPY ./Tamiyochi/.env.example /var/www/html/.env
 
 RUN composer install && yarn && yarn build
 
