@@ -256,7 +256,7 @@ Ketika job selesai, maka akan muncul tanda centang hijau pada job tersebut:
 
 Apabila diklik pada job tersebut, maka akan muncul log dari job tersebut:
 
-![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/8989e7cb-cb65-4870-a482-ef6468a80c2a)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/a662a502-ac57-4d25-bf1a-cbc87acfe78c)
 
 ![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/edb11793-09e8-4fd9-a81f-80f1603913a1)
 
