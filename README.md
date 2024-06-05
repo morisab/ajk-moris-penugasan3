@@ -234,32 +234,32 @@ Berikut adalah screenshot dari proses CI/CD menggunakan Github Actions dan Docke
 
 Kondisi ketika mengakses IP server sebelum container dijalankan:
 
-![server_before](https://cdn.discordapp.com/attachments/1233979634672996424/1239927539636371537/image.png?ex=66475702&is=66460582&hm=7d5346fb56c516b08f3ec1fdcc5690c1a5fbf0f1ecaab1fb0b94bc5f8a407683&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/5a9e7d3a-a009-4aad-8bbc-b47ec4ee9805)
 
 Dapat dilihat muncul pesan "This site can't be reached". Karenanya, aplikasi Tamiyochi belum dijalankan.
 
 Kemudian dilakukan perubahan pada repository untuk mentrigger Github Actions:
 
-![gitpush](https://cdn.discordapp.com/attachments/1233979634672996424/1239928904559624192/image.png?ex=6644b547&is=664363c7&hm=a9fbd45aa5b51923064aedb97634492ead984df068372e1bdffdb287b34b0d51&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/6d69727f-7cf8-4639-b79c-738a363a855f)
 
 Kemudian jika dilihat pada Actions, terdapat workflow yang sedang berjalan:
 
-![workflow](https://cdn.discordapp.com/attachments/1233979634672996424/1239933274516750388/image.png?ex=6644b959&is=664367d9&hm=435887ac1fe9e8fc9a230cc8837978538d230c9caf59f75953381ee71d4624a2&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/2cba1abb-39cd-44d4-bb06-d28eb017c543)
 
 Ketika diklik pada workflow yang sedang berjalan maka akan muncul job yang sedang berjalan:
 
-![job_running](https://cdn.discordapp.com/attachments/1233979634672996424/1239933274927923271/image.png?ex=6644b959&is=664367d9&hm=215468168ce3dc27c02f5d0b1e37d6c9977d50bd721e90e0f62f42a72f7e23ff&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/3cce9c87-b1a8-4c79-a8dd-eef780dee88b)
 
 Ketika job selesai, maka akan muncul tanda centang hijau pada job tersebut:
 
-![job_done](https://cdn.discordapp.com/attachments/1233979634672996424/1239935190894247976/image.png?ex=6644bb22&is=664369a2&hm=0bea3ae128bc7621d16b40764827276c627a4746183b69541fca0e7e871844d1&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/df92d6fd-08af-407e-ae14-b233bd14c775)
 
 Apabila diklik pada job tersebut, maka akan muncul log dari job tersebut:
 
-![build_and_push](https://cdn.discordapp.com/attachments/1233979634672996424/1239935386189303890/image.png?ex=6644bb50&is=664369d0&hm=73e4f7312f4d5e76c06acbdfda81fcd159ebebb965d89d443513aad81c0c72e6&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/8989e7cb-cb65-4870-a482-ef6468a80c2a)
 
-![deploy](https://cdn.discordapp.com/attachments/1233979634672996424/1239935386562592878/image.png?ex=6644bb51&is=664369d1&hm=6502f024d2d6872ed19d6bdbcdae9eeedd876174f01232f031d36b8a1d81a70e&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/edb11793-09e8-4fd9-a81f-80f1603913a1)
 
 Setelah proses selesai, maka aplikasi Tamiyochi akan dijalankan pada server:
 
-![server_after](https://cdn.discordapp.com/attachments/1233979634672996424/1239935283458211900/image.png?ex=6644bb38&is=664369b8&hm=911c744d88547e0e726273e7c99fb36822517e71c82ad776b8ccae6bbaefbbee&)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/1694ddcc-bbc5-4717-92da-59183ba85a49)
