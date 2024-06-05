@@ -262,4 +262,4 @@ Apabila diklik pada job tersebut, maka akan muncul log dari job tersebut:
 
 Setelah proses selesai, maka aplikasi Tamiyochi akan dijalankan pada server:
 
-![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/1694ddcc-bbc5-4717-92da-59183ba85a49)
+![image](https://github.com/morisab/ajk-moris-penugasan3/assets/115335252/f9d5097c-d1ca-4f60-b946-2f9daa18b83b)
