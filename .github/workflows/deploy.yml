@@ -42,7 +42,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.HOST_IP }}
-          username: moris
+          username: azureuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "./nginx.conf, ./docker-compose.yml"
           target: "~/tamiyochi/"
@@ -52,7 +52,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST_IP }}
-          username: moris
+          username: azureuser
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/tamiyochi
