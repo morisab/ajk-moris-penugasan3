@@ -32,17 +32,19 @@ RUN apk update && apk add --no-cache \
     bash && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
     npm install -g yarn && \
-    docker-php-ext-install pdo_mysql
+    docker-php-ext-install pdo pdo_mysql
 
-COPY . /var/www/html
+COPY ./Tamiyochi/ /var/www/html/
 
-RUN chmod -R 777 /var/www/html
-
-COPY .env.example /var/www/html/.env
+COPY ./Tamiyochi/.env.example /var/www/html/.env
 
 WORKDIR /var/www/html
 
-RUN composer install && yarn && yarn build
+RUN composer install --no-dev --no-interaction --no-progress --no-suggest --quiet
+
+RUN yarn && yarn build
+
+RUN chmod -R 777 /var/www/html/ && chown -R www-data:www-data /var/www/html/
 
 EXPOSE 9000
 
@@ -94,18 +96,25 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
+    volumes:
+      - php:/var/www/html
 
   nginx:
     image: nginx:latest
     container_name: nginx
     ports:
-      - "80:80"
+      - "8080:80"
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - php:/var/www/html
     networks:
       - laravel-network
     depends_on:
+      - mysql
       - app
+
+volumes:
+  php:
 
 networks:
   laravel-network:
@@ -113,36 +122,31 @@ networks:
     driver: bridge
 ```
 
-File docker-compose.yml ini digunakan untuk menjalankan container aplikasi Tamiyochi. File ini terdiri dari tiga service, yaitu mysql, app, dan nginx. Service mysql digunakan untuk menjalankan database MySQL. Service app digunakan untuk menjalankan aplikasi Tamiyochi. Service nginx digunakan untuk menjalankan web server Nginx. Service app akan bergantung pada service mysql dan service nginx akan bergantung pada service app. File ini juga mendefinisikan sebuah network yang digunakan oleh ketiga service tersebut.
+File docker-compose.yml ini digunakan untuk menjalankan container aplikasi Tamiyochi. File ini terdiri dari tiga service, yaitu mysql, app, dan nginx. Service mysql digunakan untuk menjalankan database MySQL. Service app digunakan untuk menjalankan aplikasi Tamiyochi. Service nginx digunakan untuk menjalankan web server Nginx. Service app akan bergantung pada service mysql dan service nginx akan bergantung pada service app. Terdapat volume php yang digunakan untuk menyimpan kode aplikasi. File ini juga mendefinisikan sebuah network yang digunakan oleh ketiga service tersebut.
 
 #### nginx.conf
 
 ```
-events {
-    worker_connections 1024;
-}
-http{
-    server {
-        listen 80;
-        server_name localhost;
-        root /var/www/html/public;
+server {
+    listen 80;
+    server_name localhost;
+    root /var/www/html/public;
 
-        index index.php index.html index.htm;
+    index index.php index.html index.htm;
 
-        location / {
-            try_files $uri $uri/ /index.php?$query_string;
-        }
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
 
-        location ~ \.php$ {
-            include fastcgi_params;
-            fastcgi_pass app:9000;
-            fastcgi_param SCRIPT_FILENAME /var/www/html/public/$fastcgi_script_name;
-            fastcgi_param SCRIPT_NAME $fastcgi_script_name;
-        }
+    location ~ \.php$ {
+        fastcgi_pass app:9000;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+    }
 
-        location ~ /\.(?!well-known).* {
-            deny all;
-        }
+    location ~ /\.(?!well-known).* {
+        deny all;
     }
 }
 ```
