@@ -1,7 +1,7 @@
 # Penugasan 3 AJK - CI/CD
 
 Penugasan 3 AJK, menerapkan implementasi CI/CD pada aplikasi Tamiyochi menggunakan Github Actions dan Docker. <br>
-Dikerjakan oleh Mohammad Idris Arif Budiman (5025221114)
+Dikerjakan oleh Mohammad Idris Arif Budiman ( 5025221114 )
 
 ## Daftar Isi
 
